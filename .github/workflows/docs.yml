@@ -1,10 +1,18 @@
 name: Docs
 
 on:
+  workflow_dispatch:
   pull_request:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -42,6 +50,18 @@ jobs:
       - name: Report zh_CN catalog status
         run: uv run --locked python tools/i18n/catalog_status.py
 
+      - name: Prepare GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        run: |
+          cat > _build/html/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=en/">
+          <title>The Open Source Way</title>
+          <p><a href="en/">Open the English guidebook</a></p>
+          HTML
+          touch _build/html/.nojekyll
+
       - name: Check external links advisory
         continue-on-error: true
         run: uv run --locked sphinx-build -b linkcheck . _build/linkcheck
@@ -51,3 +71,32 @@ jobs:
         with:
           name: guidebook-html-previews
           path: _build/html
+
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _build/html
+
+  deploy:
+    name: Deploy GitHub Pages
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
