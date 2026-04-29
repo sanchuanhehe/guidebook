@@ -56,4 +56,8 @@ def setup(app):
         if config.language == "zh_CN":
             config.html_theme_options["toc_title"] = "本页内容"
 
+    def add_language_context(app, pagename, templatename, context, doctree):
+        context["guidebook_language"] = app.config.language
+
     app.connect("config-inited", localize_theme_options)
+    app.connect("html-page-context", add_language_context)
