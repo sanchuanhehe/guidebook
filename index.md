@@ -2,6 +2,7 @@
 
 ```{toctree}
 :maxdepth: 2
+:titlesonly:
 :caption: Guidebook
 
 README
@@ -15,6 +16,7 @@ measuring-success/index
 
 ```{toctree}
 :maxdepth: 1
+:titlesonly:
 :caption: Project information
 
 CONTRIBUTING

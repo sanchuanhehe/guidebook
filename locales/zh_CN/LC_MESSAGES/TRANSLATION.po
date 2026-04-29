@@ -26,13 +26,13 @@ msgstr "翻译维护"
 
 #: ../../TRANSLATION.md:3
 msgid ""
-"This page records the current translation workflow and the hosted platform "
-"evaluation for discussion 260. The default workflow remains GitHub-only "
-"until maintainers decide that an external translation platform is worth the "
-"added administration."
+"This page records the current translation workflow and the hosted "
+"platform evaluation for discussion 260. The default workflow remains "
+"GitHub-only until maintainers decide that an external translation "
+"platform is worth the added administration."
 msgstr ""
-"本页记录 discussion 260 对应的当前翻译工作流和托管平台评估。在维护者确认外部翻译平台值得增加相应管理成本之前，默认工作流仍保持为仅基于 "
-"GitHub。"
+"本页记录 discussion 260 "
+"对应的当前翻译工作流和托管平台评估。在维护者确认外部翻译平台值得增加相应管理成本之前，默认工作流仍保持为仅基于 GitHub。"
 
 #: ../../TRANSLATION.md:5
 msgid "Current workflow"
@@ -40,9 +40,9 @@ msgstr "当前工作流"
 
 #: ../../TRANSLATION.md:7
 msgid ""
-"The repository uses Sphinx gettext catalogs under `locales/`. The existing "
-"Chinese Markdown tree under `l10n/cn` maps to the Sphinx locale code "
-"`zh_CN`."
+"The repository uses Sphinx gettext catalogs under `locales/`. The "
+"existing Chinese Markdown tree under `l10n/cn` maps to the Sphinx locale "
+"code `zh_CN`."
 msgstr ""
 "本仓库使用 `locales/` 下的 Sphinx gettext catalog。现有 `l10n/cn` 中文 Markdown 目录对应 "
 "Sphinx locale 代码 `zh_CN`。"
@@ -53,8 +53,8 @@ msgstr "所有命令均使用 uv 执行："
 
 #: ../../TRANSLATION.md:20
 msgid ""
-"Generated files under `_build/` are local artifacts. Commit gettext `.po` "
-"files under `locales/` when translation source changes."
+"Generated files under `_build/` are local artifacts. Commit gettext `.po`"
+" files under `locales/` when translation source changes."
 msgstr "`_build/` 下生成的文件是本地产物。翻译源发生变化时，应提交 `locales/` 下的 gettext `.po` 文件。"
 
 #: ../../TRANSLATION.md:22
@@ -63,19 +63,20 @@ msgstr "现有中文 Markdown 导入"
 
 #: ../../TRANSLATION.md:24
 msgid ""
-"The helper below imports existing `l10n/cn` text into `zh_CN` catalogs only "
-"when the English and Chinese files have the same extracted message count:"
+"The helper below imports existing `l10n/cn` text into `zh_CN` catalogs "
+"only when the English and Chinese files have the same extracted message "
+"count:"
 msgstr "下面的辅助脚本只会在英文和中文文件提取出的消息数量一致时，将现有 `l10n/cn` 文本导入 `zh_CN` catalog。"
 
 #: ../../TRANSLATION.md:30
 msgid ""
 "The first safe import migrated 21 files and 1400 messages. A follow-up "
-"alignment and manual translation pass filled the remaining `zh_CN` catalog "
-"entries, bringing the catalog status to `2248` translated messages, `0` "
-"untranslated messages, and `0` fuzzy messages."
+"manual review pass filled the remaining `zh_CN` catalog entries, bringing"
+" the catalog status to `2249` translated messages, `0` untranslated "
+"messages, and `0` fuzzy messages."
 msgstr ""
-"第一次安全导入迁移了 21 个文件和 1400 条消息。后续的对齐和人工补译已经填充剩余的 `zh_CN` catalog 条目，使 catalog "
-"状态达到 `2248` 条已翻译消息、`0` 条未翻译消息和 `0` 条 fuzzy 消息。"
+"第一次安全导入迁移了 21 个文件和 1400 条消息。后续的人工审阅已经填充剩余的 `zh_CN` catalog 条目，使 "
+"catalog 状态达到 `2249` 条已翻译消息、`0` 条未翻译消息和 `0` 条 fuzzy 消息。"
 
 #: ../../TRANSLATION.md:32
 msgid ""
@@ -165,10 +166,14 @@ msgstr "`114 != 115` 条消息"
 
 #: ../../TRANSLATION.md:46
 msgid ""
-"Those files were not accepted by the strict one-to-one import path. Future "
-"updates to them should still be reviewed carefully when source and "
-"translated message counts diverge."
-msgstr "这些文件未被严格的一对一导入路径接受。今后更新这些文件时，如果源消息数量和译文消息数量不一致，仍应谨慎审阅。"
+"Those files were not accepted by the strict one-to-one import path. Do "
+"not fill them by position when source and translated message counts "
+"diverge: a source insertion, a translated-only heading, or a deduplicated"
+" gettext message can shift every following entry. Future updates to these"
+" files need either a file-specific mapping or manual review."
+msgstr ""
+"这些文件未被严格的一对一导入路径接受。当源消息数量和译文消息数量不一致时，不要按位置填充：源文件新增条目、仅译文存在的标题，或 gettext "
+"去重后的消息，都可能让后续每一条发生错位。今后更新这些文件时，需要使用文件特定映射或人工审阅。"
 
 #: ../../TRANSLATION.md:48
 msgid "Hosted platform evaluation"
@@ -217,22 +222,22 @@ msgstr "Weblate"
 #: ../../TRANSLATION.md
 msgid ""
 "Official docs describe gettext `.po` and `.pot` support, Sphinx "
-"documentation translation support, and addons for `msgmerge` and generated "
-"`.mo` files."
+"documentation translation support, and addons for `msgmerge` and "
+"generated `.mo` files."
 msgstr ""
-"官方文档说明其支持 gettext `.po` 和 `.pot`，支持 Sphinx 文档翻译，并提供用于 `msgmerge` 和生成 `.mo` "
-"文件的插件。"
+"官方文档说明其支持 gettext `.po` 和 `.pot`，支持 Sphinx 文档翻译，并提供用于 `msgmerge` 和生成 "
+"`.mo` 文件的插件。"
 
 #: ../../TRANSLATION.md
 msgid ""
-"Requires project setup and ongoing administration of a hosted or self-hosted"
-" service. Adds another review surface outside GitHub."
+"Requires project setup and ongoing administration of a hosted or self-"
+"hosted service. Adds another review surface outside GitHub."
 msgstr "需要设置项目，并持续管理托管或自托管服务。也会在 GitHub 之外增加一个审阅界面。"
 
 #: ../../TRANSLATION.md
 msgid ""
-"Good second-phase candidate if the community wants browser-based translation"
-" and translation memory."
+"Good second-phase candidate if the community wants browser-based "
+"translation and translation memory."
 msgstr "如果社区需要基于浏览器的翻译和翻译记忆，可作为第二阶段候选方案。"
 
 #: ../../TRANSLATION.md
@@ -241,14 +246,15 @@ msgstr "Pontoon"
 
 #: ../../TRANSLATION.md
 msgid ""
-"Mozilla describes Pontoon as an open source translation management system "
-"driven by community localization and version-control storage."
+"Mozilla describes Pontoon as an open source translation management system"
+" driven by community localization and version-control storage."
 msgstr "Mozilla 将 Pontoon 描述为一个由社区本地化驱动、并使用版本控制系统存储翻译的开源翻译管理系统。"
 
 #: ../../TRANSLATION.md
 msgid ""
-"Self-hosting or instance access must be arranged. Official repository notes "
-"Heroku deployment and says production Docker deployment is not recommended."
+"Self-hosting or instance access must be arranged. Official repository "
+"notes Heroku deployment and says production Docker deployment is not "
+"recommended."
 msgstr "需要安排自托管或实例访问。官方仓库提到 Heroku 部署，并说明不建议将 Docker 部署用于生产环境。"
 
 #: ../../TRANSLATION.md
@@ -295,8 +301,12 @@ msgstr ""
 "doc.org/en/master/usage/advanced/intl.html"
 
 #: ../../TRANSLATION.md:61
-msgid "sphinx-intl workflow: https://sphinx-intl.readthedocs.io/en/master/basic.html"
-msgstr "sphinx-intl workflow: https://sphinx-intl.readthedocs.io/en/master/basic.html"
+msgid ""
+"sphinx-intl workflow: https://sphinx-"
+"intl.readthedocs.io/en/master/basic.html"
+msgstr ""
+"sphinx-intl workflow: https://sphinx-"
+"intl.readthedocs.io/en/master/basic.html"
 
 #: ../../TRANSLATION.md:62
 msgid ""
@@ -320,14 +330,24 @@ msgstr ""
 
 #: ../../TRANSLATION.md:65
 msgid ""
-"Transifex GitHub integration: https://help.transifex.com/en/articles/6265125"
-"-github-installation-and-configuration"
+"Transifex GitHub integration: "
+"https://help.transifex.com/en/articles/6265125-github-installation-and-"
+"configuration"
 msgstr ""
-"Transifex GitHub integration: https://help.transifex.com/en/articles/6265125"
-"-github-installation-and-configuration"
+"Transifex GitHub integration: "
+"https://help.transifex.com/en/articles/6265125-github-installation-and-"
+"configuration"
 
 #~ msgid ""
-#~ "Those files should be reviewed manually "
-#~ "instead of automatically paired by "
+#~ "Those files should be reviewed manually"
+#~ " instead of automatically paired by "
 #~ "position."
 #~ msgstr "这些文件应手动审阅，而不是按位置自动配对。"
+
+#~ msgid ""
+#~ "Those files were not accepted by "
+#~ "the strict one-to-one import path."
+#~ " Future updates to them should still"
+#~ " be reviewed carefully when source "
+#~ "and translated message counts diverge."
+#~ msgstr "这些文件未被严格的一对一导入路径接受。今后更新这些文件时，如果源消息数量和译文消息数量不一致，仍应谨慎审阅。"

@@ -348,55 +348,55 @@ msgid ""
 "'''Fork''' button, and make a fork in your own repo. Tip: modify the name to"
 " make it clear it is your fork and not the upstream original, e.g. "
 "`yourname-fork-reponame`"
-msgstr "分叉和克隆上游仓库"
+msgstr ""
+"访问 https://github.com/theopensourceway/guidebook 并点击 '''Fork''' "
+"按钮，在你的仓库中创建一个分叉。 提示：修改名称以清楚表明这是你的分叉，而不是上游原始仓库，例如 `yourname-fork-reponame`"
 
 #: ../../CONTRIBUTING.md:115
 msgid ""
 "Go to your personal fork at https://github.com/you/forkname, click "
 "'''Code''' > Local > SSH, and click the copy icon to the right of the URL."
 msgstr ""
-"访问 https://github.com/theopensourceway/guidebook 并点击 '''Fork''' "
-"按钮，在你的仓库中创建一个分叉。 提示：修改名称以清楚表明这是你的分叉，而不是上游原始仓库，例如 `yourname-fork-reponame`"
-
-#: ../../CONTRIBUTING.md:116
-msgid "Open your command line session and clone your repo locally:"
-msgstr ""
 "访问你的个人分叉 https://github.com/you/forkname，点击 '''Code''' > Local > SSH，然后点击 "
 "URL 右侧的复制图标。"
 
+#: ../../CONTRIBUTING.md:116
+msgid "Open your command line session and clone your repo locally:"
+msgstr "打开命令行会话并在本地克隆你的仓库："
+
 #: ../../CONTRIBUTING.md:117
 msgid "`git clone git@github.com:[you]/[you]-tosw-guidebook.git`"
-msgstr "打开命令行会话并在本地克隆你的仓库："
+msgstr "`git clone git@github.com:[you]/[you]-tosw-guidebook.git`"
 
 #: ../../CONTRIBUTING.md:118
 msgid "`cd [you]-tosw-guidebook`"
-msgstr "`git clone git@github.com:[you]/[you]-tosw-guidebook.git`"
+msgstr "`cd [you]-tosw-guidebook`"
 
 #: ../../CONTRIBUTING.md:119
 msgid "Add the upstream repo so your clone can sync with upstream:"
-msgstr "`cd [you]-tosw-guidebook`"
+msgstr "添加上游仓库，以便你的克隆可以与上游同步："
 
 #: ../../CONTRIBUTING.md:120
 msgid "`git remote add upstream git@github.com:theopensourceway/guidebook.git`"
-msgstr "添加上游仓库，以便你的克隆可以与上游同步："
+msgstr "`git remote add upstream git@github.com:theopensourceway/guidebook.git`"
 
 #: ../../CONTRIBUTING.md:121
 msgid "Check your configuration to be like this:"
-msgstr "`git remote add upstream git@github.com:theopensourceway/guidebook.git`"
+msgstr "检查你的配置，应该如下所示："
 
 #: ../../CONTRIBUTING.md:129
 msgid "Confirm that you can sync with upstream:"
-msgstr "检查你的配置，应该如下所示："
+msgstr "确认你可以与上游同步："
 
 #: ../../CONTRIBUTING.md:139
 msgid "Making changes and pushing them to GitHub as a pull request (PR)"
-msgstr "确认你可以与上游同步："
+msgstr "进行更改并将其作为拉取请求（PR）推送到 GitHub"
 
 #: ../../CONTRIBUTING.md:141
 msgid ""
 "When you want to make a change, you will make the change in your clone and "
 "submit the change to the upstream as a pull request (PR)."
-msgstr "进行更改并将其作为拉取请求（PR）推送到 GitHub"
+msgstr "当你想要进行更改时，你将在你的克隆中进行更改，并将更改提交到上游作为拉取请求（PR）。"
 
 #: ../../CONTRIBUTING.md:143
 msgid ""
@@ -404,48 +404,48 @@ msgid ""
 "if you want to work on more than one change intended for different PRs. "
 "Also, you can more easily discern which change you are working on by "
 "checking which branch you are in."
-msgstr "当你想要进行更改时，你将在你的克隆中进行更改，并将更改提交到上游作为拉取请求（PR）。"
+msgstr ""
+"我们建议你在克隆中也在一个分支上工作。 如果你想在不同的 PR 上进行多个更改，这是必要的。 "
+"此外，你可以更轻松地通过检查你所在的分支来辨别你正在进行的更改。"
 
 #: ../../CONTRIBUTING.md:154
 msgid ""
 "This confirms you are working in the branch `you-copyedits-01` and are ready"
 " for 01 or more copyedit submissions."
-msgstr ""
-"我们建议你在克隆中也在一个分支上工作。 如果你想在不同的 PR 上进行多个更改，这是必要的。 "
-"此外，你可以更轻松地通过检查你所在的分支来辨别你正在进行的更改。"
+msgstr "这确认你正在 `you-copyedits-01` 分支上工作，并准备提交 01 个或多个文案编辑。"
 
 #: ../../CONTRIBUTING.md:156
 msgid "Creating the PR"
-msgstr "这确认你正在 `you-copyedits-01` 分支上工作，并准备提交 01 个或多个文案编辑。"
+msgstr "创建 PR"
 
 #: ../../CONTRIBUTING.md:158
 msgid ""
 "When you are ready to push your changes from local to GitHub, you need to "
 "commit them and configure the push:"
-msgstr "创建 PR"
+msgstr "当你准备将本地更改推送到 GitHub 时，你需要提交它们并配置推送："
 
 #: ../../CONTRIBUTING.md:166
 msgid ""
 "The output will look something like the below. Note the link include in the "
 "output for making a PR only makes the PR in your fork ''not'' in the "
 "upstream."
-msgstr "当你准备将本地更改推送到 GitHub 时，你需要提交它们并配置推送："
+msgstr "输出将类似于以下内容。请注意，输出中包含的链接仅在你的分叉中创建 PR，而不是在上游中。"
 
 #: ../../CONTRIBUTING.md:168
 msgid ""
 "To make the PR in the upstream, visit "
 "https://github.com/theopensourceway/guidebook ; you may need to reload the "
 "page for the '''Compare & pull request''' button to appear."
-msgstr "输出将类似于以下内容。请注意，输出中包含的链接仅在你的分叉中创建 PR，而不是在上游中。"
+msgstr ""
+"要在上游中创建 PR，请访问 https://github.com/theopensourceway/guidebook；你可能需要重新加载页面以使 "
+"'''Compare & pull request''' 按钮出现。"
 
 #: ../../CONTRIBUTING.md:188
 msgid ""
 "Follow the steps in the pull request dialog, adding any addition comments "
 "you want. You can fill out other details if you know the answers, otherwise "
 "you can complete the PR."
-msgstr ""
-"要在上游中创建 PR，请访问 https://github.com/theopensourceway/guidebook；你可能需要重新加载页面以使 "
-"'''Compare & pull request''' 按钮出现。"
+msgstr "按照拉取请求对话框中的步骤，添加你想要的任何附加评论。 如果你知道答案，可以填写其他详细信息，否则你可以完成 PR。"
 
 #~ msgid ""
 #~ "Generated files under `_build/` are local"

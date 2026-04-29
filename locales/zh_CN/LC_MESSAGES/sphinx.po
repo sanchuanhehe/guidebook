@@ -20,6 +20,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
+#: ../../_templates/globaltoc.html:2
+msgid "Table of Contents"
+msgstr "目录"
+
 #: ../../_templates/language_switcher.html:1
 msgid "Languages"
 msgstr "语言"

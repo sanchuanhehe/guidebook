@@ -341,19 +341,19 @@ msgid ""
 "for reaching those goals. Goals are attainable and clear deadlines exist for"
 " tracking progress toward those goals. When assessing a project's goals and "
 "roadmap, consider questions like:"
-msgstr "目标和路线图"
+msgstr "健康的开源项目拥有公开共享的目标，以及达成这些目标的清晰流程。目标设定切实可行，并存在明确的截止期限以追踪进度。评估项目目标和路线图时，可以考虑以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:98
 msgid "Are project goals clear and public?"
-msgstr "健康的开源项目拥有公开共享的目标，以及达成这些目标的清晰流程。目标设定切实可行，并存在明确的截止期限以追踪进度。评估项目目标和路线图时，可以考虑以下问题："
+msgstr "项目目标是否清晰且公开可见？"
 
 #: ../../measuring-success/understanding-community-metrics.md:99
 msgid "Does the project have a clearly communicated process, and is it also public?"
-msgstr "项目目标是否清晰且公开可见？"
+msgstr "项目是否具备明确传达的流程，并且这些流程是否也公开？"
 
 #: ../../measuring-success/understanding-community-metrics.md:100
 msgid "Do project participants have a history of meeting project deadlines?"
-msgstr "项目是否具备明确传达的流程，并且这些流程是否也公开？"
+msgstr "项目参与者是否有按期限完成目标的历史记录？"
 
 #: ../../measuring-success/understanding-community-metrics.md:103
 msgid ""
@@ -361,21 +361,21 @@ msgid ""
 "projects feature clear, welcoming onboarding materials that assist newcomers"
 " who wish to participate in the project. When assessing a project's "
 "onboarding processes, consider questions like:"
-msgstr "项目参与者是否有按期限完成目标的历史记录？"
+msgstr "新贡献者对于项目的创新与成功至关重要。健康的项目应具备清晰友好的入门材料，帮助有意参与项目的新人顺利加入。评估项目的引导流程时，需考虑以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:105
 msgid "Does documentation explain precisely what the project is and how to use it?"
-msgstr "新贡献者对于项目的创新与成功至关重要。健康的项目应具备清晰友好的入门材料，帮助有意参与项目的新人顺利加入。评估项目的引导流程时，需考虑以下问题："
+msgstr "文档是否精确解释了项目是什么以及如何使用它？"
 
 #: ../../measuring-success/understanding-community-metrics.md:106
 msgid "Does documentation help new contributors get involved in the project?"
-msgstr "文档是否精确解释了项目是什么以及如何使用它？"
+msgstr "文档能否帮助新贡献者参与到项目中？"
 
 #: ../../measuring-success/understanding-community-metrics.md:107
 msgid ""
 "Does the project accept contributions of more than one type (e.g., "
 "development, marketing, project management, event planning)?"
-msgstr "文档能否帮助新贡献者参与到项目中？"
+msgstr "该项目是否接受多种类型的贡献（例如开发、市场营销、项目管理、活动策划）？"
 
 #: ../../measuring-success/understanding-community-metrics.md:110
 msgid ""
@@ -384,29 +384,29 @@ msgid ""
 "health often emerge first in internal channels—such as mailing lists or chat"
 " platforms—where contributors and users interact. When assessing a project's"
 " internal communication, consider questions like:"
-msgstr "该项目是否接受多种类型的贡献（例如开发、市场营销、项目管理、活动策划）？"
+msgstr "沟通渠道和项目内部交流方式是衡量项目健康状况的关键指标。影响社区健康的问题通常最先出现在贡献者与用户互动的内部渠道中，比如邮件列表或聊天平台。评估项目内部沟通时，应考虑以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:112
 msgid "Does the project have sufficient communication channels?"
-msgstr "沟通渠道和项目内部交流方式是衡量项目健康状况的关键指标。影响社区健康的问题通常最先出现在贡献者与用户互动的内部渠道中，比如邮件列表或聊天平台。评估项目内部沟通时，应考虑以下问题："
+msgstr "该项目是否拥有足够的沟通渠道？"
 
 #: ../../measuring-success/understanding-community-metrics.md:113
 msgid "Can people find and use these channels effectively?"
-msgstr "该项目是否拥有足够的沟通渠道？"
+msgstr "人们能否找到并有效使用这些渠道？"
 
 #: ../../measuring-success/understanding-community-metrics.md:114
 msgid "Are channels regularly moderated?"
-msgstr "人们能否找到并有效使用这些渠道？"
+msgstr "频道是否定期进行管理？"
 
 #: ../../measuring-success/understanding-community-metrics.md:115
 msgid "Is channel communication governed by a code of conduct?"
-msgstr "频道是否定期进行管理？"
+msgstr "频道交流是否受行为准则约束？"
 
 #: ../../measuring-success/understanding-community-metrics.md:117
 msgid ""
 "Refer to this guidebook's chapter on communications norms for more "
 "consideration of this topic."
-msgstr "频道交流是否受行为准则约束？"
+msgstr "关于此主题的更多思考，请参阅本指南中有关沟通规范的章节。"
 
 #: ../../measuring-success/understanding-community-metrics.md:120
 msgid ""
@@ -416,19 +416,19 @@ msgid ""
 "(e.g., demos, training sessions) for outreach. Healthy projects have "
 "adequate energy and resources devoted to outreach. When assessing a "
 "project's outreach efforts, consider questions like:"
-msgstr "关于此主题的更多思考，请参阅本指南中有关沟通规范的章节。"
+msgstr "外联是积极推广项目并让他人知晓的过程。社区通过书面材料（如社交媒体、博客、白皮书）、活动（如聚会、大会）和教育策略（如演示、培训课程）进行外联。健康的项目会投入足够的精力和资源用于外联。评估项目的外联工作时，可思考以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:122
 msgid ""
 "Does the community use clear and consistent methods for outreach? If not, "
 "does it plan to establish a set of outreach methods?"
-msgstr "外联是积极推广项目并让他人知晓的过程。社区通过书面材料（如社交媒体、博客、白皮书）、活动（如聚会、大会）和教育策略（如演示、培训课程）进行外联。健康的项目会投入足够的精力和资源用于外联。评估项目的外联工作时，可思考以下问题："
+msgstr "社区是否采用清晰且一致的对外推广方法？如果没有，是否计划建立一套推广方法？"
 
 #: ../../measuring-success/understanding-community-metrics.md:123
 msgid ""
 "Are people writing, talking about, and promoting this project and its "
 "technologies?"
-msgstr "社区是否采用清晰且一致的对外推广方法？如果没有，是否计划建立一套推广方法？"
+msgstr "人们在撰写、讨论和推广这个项目及其相关技术吗？"
 
 #: ../../measuring-success/understanding-community-metrics.md:126
 msgid ""
@@ -437,23 +437,23 @@ msgid ""
 "outreach efforts and can be measured through user and contributor surveys or"
 " general marketing analyses. When assessing a project's awareness, consider "
 "questions like:"
-msgstr "人们在撰写、讨论和推广这个项目及其相关技术吗？"
+msgstr "项目的目标受众需要知晓该项目，并理解它解决的问题。认知度是项目推广工作期望达成的成果，可以通过用户与贡献者调查或常规营销分析来衡量。评估项目认知度时，应考虑以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:128
 msgid "Is the intended audience aware of the project?"
-msgstr "项目的目标受众需要知晓该项目，并理解它解决的问题。认知度是项目推广工作期望达成的成果，可以通过用户与贡献者调查或常规营销分析来衡量。评估项目认知度时，应考虑以下问题："
+msgstr "目标受众是否了解该项目？"
 
 #: ../../measuring-success/understanding-community-metrics.md:129
 msgid ""
 "Can people in the intended audience explain the project's uses, features, "
 "and advantages over alternatives?"
-msgstr "目标受众是否了解该项目？"
+msgstr "目标用户是否能清晰阐述该项目的用途、特性及其相较于替代方案的优势？"
 
 #: ../../measuring-success/understanding-community-metrics.md:130
 msgid ""
 "Do others working in an industry that would benefit from the project know "
 "the project exists?"
-msgstr "目标用户是否能清晰阐述该项目的用途、特性及其相较于替代方案的优势？"
+msgstr "该项目所在行业中可能受益的相关从业者是否知晓该项目的存在？"
 
 #: ../../measuring-success/understanding-community-metrics.md:133
 msgid ""
@@ -462,25 +462,25 @@ msgid ""
 "audiences. A community's interactions with other projects in its ecosystem "
 "reflect the project's health. When assessing a project's ecosystem, consider"
 " questions like:"
-msgstr "该项目所在行业中可能受益的相关从业者是否知晓该项目的存在？"
+msgstr "没有任何项目能孤立存在。项目之间常常相互依存，有时同类项目还会争夺相同的目标用户群体。一个社区与其所处生态系统中其他项目的互动情况，往往能反映出该项目的健康程度。评估项目生态系统时，可思考以下问题："
 
 #: ../../measuring-success/understanding-community-metrics.md:135
 msgid "What are the project's dependencies and what projects depend on it?"
-msgstr "没有任何项目能孤立存在。项目之间常常相互依存，有时同类项目还会争夺相同的目标用户群体。一个社区与其所处生态系统中其他项目的互动情况，往往能反映出该项目的健康程度。评估项目生态系统时，可思考以下问题："
+msgstr "项目的依赖项有哪些？又有哪些项目依赖于此项目？"
 
 #: ../../measuring-success/understanding-community-metrics.md:136
 msgid ""
 "Is the community sufficiently integrated into the overall project ecosystem,"
 " intended industry, and organizations that may use the project?"
-msgstr "项目的依赖项有哪些？又有哪些项目依赖于此项目？"
+msgstr "社区是否充分融入了整体项目生态系统、目标行业以及可能使用该项目的组织？"
 
 #: ../../measuring-success/understanding-community-metrics.md:137
 msgid "Do members of that ecosystem view this project favorably?"
-msgstr "社区是否充分融入了整体项目生态系统、目标行业以及可能使用该项目的组织？"
+msgstr "该生态系统的成员是否对该项目持积极看法？"
 
 #: ../../measuring-success/understanding-community-metrics.md:139
 msgid "Choosing the right metrics for your community"
-msgstr "该生态系统的成员是否对该项目持积极看法？"
+msgstr "为你的社区选择合适的衡量指标"
 
 #: ../../measuring-success/understanding-community-metrics.md:140
 msgid ""
@@ -488,7 +488,7 @@ msgid ""
 "naturally have its own set of metrics for measuring health and success. Many"
 " factors can influence a community's choice of metrics, but one of the most "
 "important influences is the community's goals."
-msgstr "为你的社区选择合适的衡量指标"
+msgstr "由于没有任何两个开源社区是完全相同的，每个社区自然会有一套衡量健康与成功的独特标准。影响社区选择指标的因素众多，但其中最关键的因素之一便是社区的目标。"
 
 #: ../../measuring-success/understanding-community-metrics.md:142
 msgid ""
@@ -499,7 +499,7 @@ msgid ""
 "merge new fixes and features take a longer time. Those communities probably "
 "wouldn't emphazize speed of code review as much as, for example, code review"
 " efficiency."
-msgstr "由于没有任何两个开源社区是完全相同的，每个社区自然会有一套衡量健康与成功的独特标准。影响社区选择指标的因素众多，但其中最关键的因素之一便是社区的目标。"
+msgstr "例如，有些社区优先考虑代码合并的速度——因此他们会跟踪与此能力相关的指标。但其他社区则由在严格监管行业（如能源或医疗保健）工作的用户和贡献者组成，在这些行业，合并新修复和功能的需求决定了决策过程需要更长时间。这些社区可能不会像重视代码审查效率那样，过于强调代码审查的速度。"
 
 #: ../../measuring-success/understanding-community-metrics.md:144
 msgid ""
@@ -511,7 +511,7 @@ msgid ""
 "Hearing from a diverse group of community members is important for ensuring "
 "the metrics are inclusive and not just focusing on the work of a subset of "
 "the community."
-msgstr "例如，有些社区优先考虑代码合并的速度——因此他们会跟踪与此能力相关的指标。但其他社区则由在严格监管行业（如能源或医疗保健）工作的用户和贡献者组成，在这些行业，合并新修复和功能的需求决定了决策过程需要更长时间。这些社区可能不会像重视代码审查效率那样，过于强调代码审查的速度。"
+msgstr "根据社区目标的不同，可以建立各类衡量指标，例如工作积压情况、贡献者多样性（如组织背景、地域分布等）、首次贡献者流动率、本地化与国际化进展，或是讨论话题的热度。社区应当通过协作方式共同制定这些指标，并达成集体共识。听取来自不同背景社区成员的意见至关重要，这能确保指标具有包容性，而非仅聚焦于部分群体工作成果。"
 
 #: ../../measuring-success/understanding-community-metrics.md:146
 msgid ""
@@ -519,15 +519,15 @@ msgid ""
 "community and discuss if any adjustments are needed for your metrics. Even "
 "within the same community, you will likely need to evolve your metrics along"
 " with the community as your needs change."
-msgstr "根据社区目标的不同，可以建立各类衡量指标，例如工作积压情况、贡献者多样性（如组织背景、地域分布等）、首次贡献者流动率、本地化与国际化进展，或是讨论话题的热度。社区应当通过协作方式共同制定这些指标，并达成集体共识。听取来自不同背景社区成员的意见至关重要，这能确保指标具有包容性，而非仅聚焦于部分群体工作成果。"
+msgstr "定期与社区共同审视指标，并讨论是否有必要进行调整，也是一种良好实践。即便在同一社区内，随着需求变化，你很可能也需要根据社区发展不断优化指标。"
 
 #: ../../measuring-success/understanding-community-metrics.md:148
 msgid "Resources for developing metrics for your community"
-msgstr "定期与社区共同审视指标，并讨论是否有必要进行调整，也是一种良好实践。即便在同一社区内，随着需求变化，你很可能也需要根据社区发展不断优化指标。"
+msgstr "社区指标开发资源参考"
 
 #: ../../measuring-success/understanding-community-metrics.md:150
 msgid "Take advantage of available resources in your software tools"
-msgstr "社区指标开发资源参考"
+msgstr "充分利用现有软件工具中的资源"
 
 #: ../../measuring-success/understanding-community-metrics.md:151
 msgid ""
@@ -539,14 +539,14 @@ msgid ""
 " GitLab, Jira, or others, you may be able to save a lot of time by reading "
 "their documentations prior to implementing a new set of metrics from "
 "scratch."
-msgstr "充分利用现有软件工具中的资源"
-
-#: ../../measuring-success/understanding-community-metrics.md:153
-msgid "The CHAOSS project"
 msgstr ""
 "过去，许多人编写复杂的脚本或查询来获取社区的各项指标。如今，开源项目常用的软件工具（如代码库、论坛、问题跟踪器、维基等）大多都具备 "
 "API、插件甚至内置仪表板，使得为社区收集数据变得轻而易举。因此，如果你使用诸如 Discourse、GitHub、GitLab、Jira "
 "等工具，在从零开始设计新指标前，阅读相关文档或许能为你节省大量时间。"
+
+#: ../../measuring-success/understanding-community-metrics.md:153
+msgid "The CHAOSS project"
+msgstr "CHAOSS项目"
 
 #: ../../measuring-success/understanding-community-metrics.md:154
 msgid ""
@@ -557,7 +557,9 @@ msgid ""
 "foundations, and others. If you visit the [CHAOSS "
 "website](https://chaoss.community), you will find details on metrics across "
 "different categories plus implementation examples for many of these metrics."
-msgstr "CHAOSS项目"
+msgstr ""
+"不出所料，确实存在一个专注于社区指标的开源项目。该项目名为 "
+"CHAOSS（开源软件社区健康分析），其社区成员来自学术界、参与众多开源项目的公司、开源基金会以及其他领域。若访问[CHAOSS网站](https://chaoss.community)，你将找到跨不同类别的详细指标说明，以及其中许多指标的实施案例。"
 
 #: ../../measuring-success/understanding-community-metrics.md:156
 msgid ""
@@ -566,14 +568,12 @@ msgid ""
 "have an idea for new metrics that are not yet in CHAOSS, you can also start "
 "a discussion on new metrics in the CHAOSS community."
 msgstr ""
-"不出所料，确实存在一个专注于社区指标的开源项目。该项目名为 "
-"CHAOSS（开源软件社区健康分析），其社区成员来自学术界、参与众多开源项目的公司、开源基金会以及其他领域。若访问[CHAOSS网站](https://chaoss.community)，你将找到跨不同类别的详细指标说明，以及其中许多指标的实施案例。"
+"浏览 CHAOSS 指标集时，你可能会发现许多适用于自己社区的指标（及实现方案）。若想到 CHASS 尚未收录的新指标，也欢迎在 CHAOSS "
+"社区发起新指标讨论。"
 
 #: ../../measuring-success/understanding-community-metrics.md:158
 msgid "Resources/examples from other communities"
-msgstr ""
-"浏览 CHAOSS 指标集时，你可能会发现许多适用于自己社区的指标（及实现方案）。若想到 CHASS 尚未收录的新指标，也欢迎在 CHAOSS "
-"社区发起新指标讨论。"
+msgstr "其他社区的资源/案例"
 
 #: ../../measuring-success/understanding-community-metrics.md:159
 msgid ""
@@ -583,7 +583,10 @@ msgid ""
 "dashboard](https://k8s.devstats.cncf.io/) and you can find details on their "
 "`devstats` project for their dashboard in the CNCF's repo at "
 "<https://github.com/cncf/devstats>."
-msgstr "其他社区的资源/案例"
+msgstr ""
+"许多开源社区都为其社区仪表盘提供了优质的文档/代码，可供其他众多社区借鉴使用。不少读者可能对[CNCF仪表板](https://k8s.devstats.cncf.io/)较为熟悉，你可以在"
+" CNCF 的代码库 <https://github.com/cncf/devstats> 中，通过 "
+"`devstats`项目详细了解其仪表盘的实现细节。。"
 
 #: ../../measuring-success/understanding-community-metrics.md:161
 msgid ""
@@ -592,10 +595,7 @@ msgid ""
 " page](https://contributors.rubyonrails.org/faq), which provides good "
 "insight into why they developed the dashboard and some of their "
 "implementation decisions."
-msgstr ""
-"许多开源社区都为其社区仪表盘提供了优质的文档/代码，可供其他众多社区借鉴使用。不少读者可能对[CNCF仪表板](https://k8s.devstats.cncf.io/)较为熟悉，你可以在"
-" CNCF 的代码库 <https://github.com/cncf/devstats> 中，通过 "
-"`devstats`项目详细了解其仪表盘的实现细节。。"
+msgstr "[Ruby社区仪表板](https://contributors.rubyonrails.org/contributors)及其[常见问题页面](https://contributors.rubyonrails.org/faq)也是优秀范例，该文档深入阐释了仪表盘的开发初衷及部分技术决策。"
 
 #: ../../measuring-success/understanding-community-metrics.md:163
 msgid ""
@@ -604,20 +604,20 @@ msgid ""
 "WordPress](https://jeanbaptisteaudras.com/en/2020/03/wordpress-5-4-core-"
 "contribution-statistics/) after their recent release, where you will see a "
 "lot of good visualizations for where the contrbutions are coming from."
-msgstr "[Ruby社区仪表板](https://contributors.rubyonrails.org/contributors)及其[常见问题页面](https://contributors.rubyonrails.org/faq)也是优秀范例，该文档深入阐释了仪表盘的开发初衷及部分技术决策。"
-
-#: ../../measuring-success/understanding-community-metrics.md:165
-msgid "Metrics pitfalls"
 msgstr ""
 "部分社区会在每次发布后公布贡献指标。WordPress "
 "最近版本发布后的报告就是个很好的[示例](https://jeanbaptisteaudras.com/en/2020/03/wordpress-5-4"
 "-core-contribution-statistics/)，其中通过大量可视化图表清晰展示了贡献来源。"
 
+#: ../../measuring-success/understanding-community-metrics.md:165
+msgid "Metrics pitfalls"
+msgstr "指标陷阱"
+
 #: ../../measuring-success/understanding-community-metrics.md:166
 msgid ""
 "Metrics are certainly important, but there are definitely shortcomings that "
 "we need to be aware of."
-msgstr "指标陷阱"
+msgstr "指标固然重要，但我们必须意识到其中存在的缺陷。"
 
 #: ../../measuring-success/understanding-community-metrics.md:168
 msgid ""
@@ -629,7 +629,7 @@ msgid ""
 "compared to outputs (e.g., the impact of a commit/merge request/pull "
 "request). Needless to say, ignoring outputs from the community will provide "
 "an incomplete picture of the community."
-msgstr "指标固然重要，但我们必须意识到其中存在的缺陷。"
+msgstr "人们常倾向于用最容易衡量的指标来评估：这是人之常情，毕竟我们都想做更简单的事。但若社区仅关注易量化指标，就可能忽略社区的重要方面。例如，比起产出（如提交/合并请求的实际影响），投入（如提交/合并请求的数量）往往更易聚焦。不言而喻，忽视社区产出将导致对社区认知的片面性。"
 
 #: ../../measuring-success/understanding-community-metrics.md:169
 msgid ""
@@ -643,7 +643,7 @@ msgid ""
 " this is happening or not would be difficult to quantify, but you still want"
 " to have a good sense on this aspect of community health even if it requires"
 " other means besides metrics collections."
-msgstr "人们常倾向于用最容易衡量的指标来评估：这是人之常情，毕竟我们都想做更简单的事。但若社区仅关注易量化指标，就可能忽略社区的重要方面。例如，比起产出（如提交/合并请求的实际影响），投入（如提交/合并请求的数量）往往更易聚焦。不言而喻，忽视社区产出将导致对社区认知的片面性。"
+msgstr "过度依赖指标会导致认识不完整：没有任何一套指标能全面反映社区（或任何组织）的真实状况。虽然建立标准化指标体系很重要，这样你才能评估社区随时间推移的进步，但总有些事物是极难衡量或量化的。例如，我们都希望贡献者能在社区中获得强烈的归属感，并享受与其他成员的协作。这种现象是否真实发生很难量化，但你仍然需要对这个关乎社区健康的关键维度有清晰把握——即便这意味着要采用指标收集之外的其他方法。"
 
 #: ../../measuring-success/understanding-community-metrics.md:170
 msgid ""
@@ -656,19 +656,19 @@ msgid ""
 "communities are volunteers who contribute in their own time, so ignoring "
 "their intrinsic motivation can often lead to negative consequences in the "
 "community."
-msgstr "过度依赖指标会导致认识不完整：没有任何一套指标能全面反映社区（或任何组织）的真实状况。虽然建立标准化指标体系很重要，这样你才能评估社区随时间推移的进步，但总有些事物是极难衡量或量化的。例如，我们都希望贡献者能在社区中获得强烈的归属感，并享受与其他成员的协作。这种现象是否真实发生很难量化，但你仍然需要对这个关乎社区健康的关键维度有清晰把握——即便这意味着要采用指标收集之外的其他方法。"
+msgstr "忽视内在动机：人们加入组织（特别是志愿组织）通常源于内在驱动力。例如，他们强烈认同团体使命，或享受与其他成员间的归属感。若在衡量标准中过度强调个人贡献（或投入），可能导致组织忽略人们最初加入的初衷。开源社区的大多数贡献者都是利用个人时间参与志愿工作的，因此忽视他们的内在动机往往会给社区带来负面影响。"
 
 #: ../../measuring-success/understanding-community-metrics.md:172
 msgid ""
 "Refer to the chapter on participant motivations for more on the topic of "
 "intrinsic motivations."
-msgstr "忽视内在动机：人们加入组织（特别是志愿组织）通常源于内在驱动力。例如，他们强烈认同团体使命，或享受与其他成员间的归属感。若在衡量标准中过度强调个人贡献（或投入），可能导致组织忽略人们最初加入的初衷。开源社区的大多数贡献者都是利用个人时间参与志愿工作的，因此忽视他们的内在动机往往会给社区带来负面影响。"
+msgstr "关于内在动机的更多探讨，请参阅\"参与者动机\"章节。"
 
 #: ../../measuring-success/understanding-community-metrics.md:174
 msgid ""
 "Beyond these shortcomings of metrics in general, the following are "
 "particularly relevant to open source communities."
-msgstr "关于内在动机的更多探讨，请参阅\"参与者动机\"章节。"
+msgstr "除了这些指标常见的缺陷外，以下问题对开源社区尤为相关。"
 
 #: ../../measuring-success/understanding-community-metrics.md:176
 msgid ""
@@ -678,7 +678,7 @@ msgid ""
 "commits/merge requests/pull requests for trvial changes when they could have"
 " accomplished the same thing with a single commit/merge request/pull "
 "request."
-msgstr "除了这些指标常见的缺陷外，以下问题对开源社区尤为相关。"
+msgstr "游戏化贡献指标：当社区主要以（甚至完全依赖）指标作为认可依据时，这种现象就会出现。毫不意外，你会看到人们为了一些微小的改动提交多次提交/合并请求/拉取请求，而这些改动本可以通过一次提交/合并请求/拉取请求完成。。"
 
 #: ../../measuring-success/understanding-community-metrics.md:177
 msgid ""
@@ -687,7 +687,7 @@ msgid ""
 "media followers. As in social media, quantity isn't everything. Also, if you"
 " want to ensure that community members' intrinsic motivation is satisfied in"
 " the community, vanity metrics is definitely not a good way to go."
-msgstr "游戏化贡献指标：当社区主要以（甚至完全依赖）指标作为认可依据时，这种现象就会出现。毫不意外，你会看到人们为了一些微小的改动提交多次提交/合并请求/拉取请求，而这些改动本可以通过一次提交/合并请求/拉取请求完成。。"
+msgstr "虚荣指标：在开源领域之外，你也常能看到这类现象。一个典型的例子就是过分关注社交媒体粉丝数量这类数据。正如在社交媒体中一样，数量并不能代表一切。此外，若想确保社区成员的内在动机得到满足，虚荣指标显然不是可取之道。"
 
 #: ../../measuring-success/understanding-community-metrics.md:178
 msgid ""
@@ -702,7 +702,10 @@ msgid ""
 "may not be appropriate. Before you think about wanting 1,000 contributors in"
 " your community, you may want to ask basic questions like do you really need"
 " 1,000 people to accomplish your project's goals?"
-msgstr "虚荣指标：在开源领域之外，你也常能看到这类现象。一个典型的例子就是过分关注社交媒体粉丝数量这类数据。正如在社交媒体中一样，数量并不能代表一切。此外，若想确保社区成员的内在动机得到满足，虚荣指标显然不是可取之道。"
+msgstr ""
+"基于几个指标对不同开源社区进行比较时，你可能会听到这样的说法：\"项目 A 的上次大会有超过 5000 人参与\"，或者\"项目 B 拥有 1000 "
+"名贡献者\"，而人们对各自的社区抱有相似的期望。在将你的社区与他人对比之前，重要的是要考虑是否在进行同类比较（即苹果对苹果的比较）。你可能处于不同行业、项目成熟度阶段各异，或是范围不同等等，直接对比可能并不恰当。在考虑希望社区拥有"
+" 1000 名贡献者之前，或许应该先问一些基本问题，比如是否真的需要 1000 人来达成项目目标？"
 
 #: ../../measuring-success/understanding-community-metrics.md:179
 msgid ""
