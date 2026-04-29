@@ -62,10 +62,6 @@ jobs:
           HTML
           touch _build/html/.nojekyll
 
-      - name: Check external links advisory
-        continue-on-error: true
-        run: uv run --locked sphinx-build -b linkcheck . _build/linkcheck
-
       - name: Upload HTML previews
         uses: actions/upload-artifact@v4
         with:
@@ -100,3 +96,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  linkcheck:
+    name: Check external links advisory
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Sync docs environment
+        run: uv sync --locked
+
+      - name: Check external links advisory
+        run: uv run --locked sphinx-build -b linkcheck . _build/linkcheck
