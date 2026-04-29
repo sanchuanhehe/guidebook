@@ -44,6 +44,20 @@ html_theme_options = {
     "show_toc_level": 2,
     "toc_title": "On this page",
 }
+latex_engine = "xelatex"
+latex_documents = [
+    (root_doc, "the-open-source-way.tex", project, author, "manual"),
+]
+latex_elements = {
+    "papersize": "letterpaper",
+    "pointsize": "10pt",
+    "preamble": r"""
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+""",
+}
 html_sidebars = {
     "**": [
         "navbar-logo.html",

@@ -97,10 +97,47 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+  pdf:
+    name: Build PDF docs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install PDF build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            fonts-noto-cjk \
+            latexmk \
+            texlive-fonts-recommended \
+            texlive-lang-chinese \
+            texlive-latex-extra \
+            texlive-latex-recommended \
+            texlive-xetex
+
+      - name: Sync docs environment
+        run: uv sync --locked
+
+      - name: Build English PDF
+        run: uv run --locked sphinx-build -M latexpdf . _build/pdf/en
+
+      - name: Build zh_CN PDF
+        run: uv run --locked sphinx-build -M latexpdf . _build/pdf/zh_CN -D language=zh_CN
+
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: guidebook-pdf
+          path: _build/pdf/**/*.pdf
+
   linkcheck:
     name: Check external links advisory
     runs-on: ubuntu-latest
-    continue-on-error: true
 
     steps:
       - name: Check out repository
@@ -113,4 +150,16 @@ jobs:
         run: uv sync --locked
 
       - name: Check external links advisory
+        id: linkcheck
+        continue-on-error: true
         run: uv run --locked sphinx-build -b linkcheck . _build/linkcheck
+
+      - name: Summarize advisory linkcheck
+        if: always()
+        run: |
+          echo "External link checking is advisory and does not block docs builds or Pages deployment." >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.linkcheck.outcome }}" != "success" ]; then
+            echo "::warning::External link check reported issues; inspect the linkcheck job log for details."
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Result: ${{ steps.linkcheck.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -45,6 +45,13 @@ Build the Chinese preview with:
 uv run sphinx-build -b html -D language=zh_CN . _build/html/zh_CN
 ```
 
+Build PDF previews with Sphinx's LaTeX builder. This requires XeLaTeX and `latexmk` locally; CI installs the required TeX Live packages before running these commands:
+
+```
+uv run sphinx-build -M latexpdf . _build/pdf/en
+uv run sphinx-build -M latexpdf . _build/pdf/zh_CN -D language=zh_CN
+```
+
 To import existing Chinese Markdown text from `l10n/cn` into gettext catalogs where the source and translated files have matching message counts, run:
 
 ```
