@@ -21,6 +21,9 @@ jobs:
       - name: Sync docs environment
         run: uv sync --locked
 
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2@0.18.1
+
       - name: Build English HTML
         run: uv run --locked sphinx-build -b html . _build/html/en
 

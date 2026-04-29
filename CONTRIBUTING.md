@@ -23,6 +23,14 @@ Build the English guidebook preview with:
 uv run sphinx-build -b html . _build/html/en
 ```
 
+The generated HTML uses `sphinx-book-theme`, which provides a GitBook-like layout with primary navigation, page-level contents, repository buttons, search, and responsive sidebars.
+
+Lint Markdown with:
+
+```
+npx --yes markdownlint-cli2@0.18.1
+```
+
 The translation workflow uses Sphinx gettext catalogs. The current Chinese Markdown localization under `l10n/cn` maps to the Sphinx locale code `zh_CN`. To refresh translation catalogs after English source changes, run:
 
 ```
