@@ -36,6 +36,7 @@ measuring-success/announcing-software-releases
 :caption: Project information
 
 CONTRIBUTING
+TRANSLATION
 CODE_OF_CONDUCT
 CONTRIBUTORS
 LICENSE

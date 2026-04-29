@@ -30,10 +30,14 @@ jobs:
       - name: Check zh_CN catalogs are current
         run: |
           uv run --locked sphinx-intl update -p _build/gettext -l zh_CN --locale-dir locales
+          uv run --locked python tools/i18n/normalize_po_files.py
           git diff --exit-code -- locales
 
       - name: Build zh_CN HTML
         run: uv run --locked sphinx-build -b html -D language=zh_CN . _build/html/zh_CN
+
+      - name: Report zh_CN catalog status
+        run: uv run --locked python tools/i18n/catalog_status.py
 
       - name: Check external links advisory
         continue-on-error: true

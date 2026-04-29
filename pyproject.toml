@@ -5,8 +5,9 @@ description = "Documentation build and translation tooling for The Open Source W
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "babel>=2.18.0",
     "myst-parser>=4.0.1",
-    "sphinx>=8.2.3",
+    "sphinx>=8.2.3,<9.0.0",
     "sphinx-intl>=2.3.2",
 ]
 

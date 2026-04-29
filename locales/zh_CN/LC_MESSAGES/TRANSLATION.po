@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the The Open Source Way
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Open Source Way \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1970-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../TRANSLATION.md:1
+msgid "Translation maintenance"
+msgstr ""
+
+#: ../../TRANSLATION.md:3
+msgid ""
+"This page records the current translation workflow and the hosted "
+"platform evaluation for discussion 260. The default workflow remains "
+"GitHub-only until maintainers decide that an external translation "
+"platform is worth the added administration."
+msgstr ""
+
+#: ../../TRANSLATION.md:5
+msgid "Current workflow"
+msgstr ""
+
+#: ../../TRANSLATION.md:7
+msgid ""
+"The repository uses Sphinx gettext catalogs under `locales/`. The "
+"existing Chinese Markdown tree under `l10n/cn` maps to the Sphinx locale "
+"code `zh_CN`."
+msgstr ""
+
+#: ../../TRANSLATION.md:9
+msgid "Use uv for all commands:"
+msgstr ""
+
+#: ../../TRANSLATION.md:19
+msgid ""
+"Generated files under `_build/` are local artifacts. Commit gettext `.po`"
+" files under `locales/` when translation source changes."
+msgstr ""
+
+#: ../../TRANSLATION.md:21
+msgid "Existing Chinese Markdown import"
+msgstr ""
+
+#: ../../TRANSLATION.md:23
+msgid ""
+"The helper below imports existing `l10n/cn` text into `zh_CN` catalogs "
+"only when the English and Chinese files have the same extracted message "
+"count:"
+msgstr ""
+
+#: ../../TRANSLATION.md:29
+msgid ""
+"The first safe import migrated 21 files and 1400 messages. It skipped 9 "
+"files because either the matching Chinese source did not exist, or the "
+"extracted message counts differed:"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Catalog"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Reason"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`CONTRIBUTING.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`65 != 60` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`CONTRIBUTORS.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`52 != 75` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`README.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`7 != 3` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`getting-started/building-a-strategy.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`131 != 130` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`getting-started/essentials-of-building-a-community.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`110 != 112` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`growing-contributors/project-and-community-governance.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`227 != 229` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`index.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "no matching Chinese source"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`measuring-success/announcing-software-releases.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`70 != 69` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`measuring-success/understanding-community-metrics.po`"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "`114 != 115` messages"
+msgstr ""
+
+#: ../../TRANSLATION.md:43
+msgid ""
+"Those files should be reviewed manually instead of automatically paired "
+"by position."
+msgstr ""
+
+#: ../../TRANSLATION.md:45
+msgid "Hosted platform evaluation"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Option"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Strengths"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Costs and risks"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Decision"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "GitHub-only gettext workflow"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"No new account, service, permission model, or synchronization bot. Works "
+"with uv, Sphinx, sphinx-intl, CI artifacts, and normal pull requests."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Translators edit `.po` files directly unless they use a local PO editor. "
+"Translation memory and glossary support stay outside the repository."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Recommended default for the first infrastructure phase."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Weblate"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Official docs describe gettext `.po` and `.pot` support, Sphinx "
+"documentation translation support, and addons for `msgmerge` and "
+"generated `.mo` files."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Requires project setup and ongoing administration of a hosted or self-"
+"hosted service. Adds another review surface outside GitHub."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Good second-phase candidate if the community wants browser-based "
+"translation and translation memory."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Pontoon"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Mozilla describes Pontoon as an open source translation management system"
+" driven by community localization and version-control storage."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Self-hosting or instance access must be arranged. Official repository "
+"notes Heroku deployment and says production Docker deployment is not "
+"recommended."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Defer until maintainers want to operate or join a Pontoon instance."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Transifex"
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Official docs describe gettext PO support, developer comments, context, "
+"source references, plural forms, and a GitHub integration that links a "
+"Transifex project to a repository through the UI."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid ""
+"Commercial service and account administration. GitHub integration adds "
+"branch/sync policy decisions."
+msgstr ""
+
+#: ../../TRANSLATION.md
+msgid "Defer until maintainers explicitly want a managed translation platform."
+msgstr ""
+
+#: ../../TRANSLATION.md:54
+msgid "References:"
+msgstr ""
+
+#: ../../TRANSLATION.md:56
+msgid "uv projects: https://docs.astral.sh/uv/concepts/projects/"
+msgstr ""
+
+#: ../../TRANSLATION.md:57
+msgid ""
+"Sphinx internationalization: https://www.sphinx-"
+"doc.org/en/master/usage/advanced/intl.html"
+msgstr ""
+
+#: ../../TRANSLATION.md:58
+msgid ""
+"sphinx-intl workflow: https://sphinx-"
+"intl.readthedocs.io/en/master/basic.html"
+msgstr ""
+
+#: ../../TRANSLATION.md:59
+msgid ""
+"Weblate gettext support: "
+"https://docs.weblate.org/en/latest/formats/gettext.html"
+msgstr ""
+
+#: ../../TRANSLATION.md:60
+msgid "Pontoon repository and documentation: https://github.com/mozilla/pontoon"
+msgstr ""
+
+#: ../../TRANSLATION.md:61
+msgid ""
+"Transifex gettext support: https://help.transifex.com/en/articles/6220794"
+"-gettext-po"
+msgstr ""
+
+#: ../../TRANSLATION.md:62
+msgid ""
+"Transifex GitHub integration: "
+"https://help.transifex.com/en/articles/6265125-github-installation-and-"
+"configuration"
+msgstr ""

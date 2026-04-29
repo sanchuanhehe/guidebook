@@ -28,6 +28,7 @@ The translation workflow uses Sphinx gettext catalogs. The current Chinese Markd
 ```
 SOURCE_DATE_EPOCH=0 uv run sphinx-build -b gettext . _build/gettext
 uv run sphinx-intl update -p _build/gettext -l zh_CN --locale-dir locales
+uv run python tools/i18n/normalize_po_files.py
 ```
 
 Build the Chinese preview with:
@@ -36,7 +37,21 @@ Build the Chinese preview with:
 uv run sphinx-build -b html -D language=zh_CN . _build/html/zh_CN
 ```
 
+To import existing Chinese Markdown text from `l10n/cn` into gettext catalogs where the source and translated files have matching message counts, run:
+
+```
+uv run python tools/i18n/migrate_cn_markdown.py
+```
+
+The migration script skips files whose message counts differ, so reviewers can inspect those files manually instead of accepting guessed translations. To report the current catalog status, run:
+
+```
+uv run python tools/i18n/catalog_status.py
+```
+
 Generated files under `_build/` are local preview artifacts and should not be committed. Catalog files under `locales/` are source files for translation review and should be committed when they change. CI also runs an advisory external link check; third-party sites can return redirects or access-denied responses that should be reviewed separately from the docs build.
+
+See [Translation maintenance](TRANSLATION.md) for the current migration status and hosted translation platform evaluation.
 
 ## Community architecture
 We've defined a set of roles and responsibilities around an initial, core group of contributors most familiar with the goals of the project. Beyond that, we'll evolve with the participation of new contributors and update our contribution guidelines accordingly.

@@ -89,6 +89,20 @@ msgstr ""
 
 #: ../../CONTRIBUTING.md:39
 msgid ""
+"To import existing Chinese Markdown text from `l10n/cn` into gettext "
+"catalogs where the source and translated files have matching message "
+"counts, run:"
+msgstr ""
+
+#: ../../CONTRIBUTING.md:45
+msgid ""
+"The migration script skips files whose message counts differ, so "
+"reviewers can inspect those files manually instead of accepting guessed "
+"translations. To report the current catalog status, run:"
+msgstr ""
+
+#: ../../CONTRIBUTING.md:51
+msgid ""
 "Generated files under `_build/` are local preview artifacts and should "
 "not be committed. Catalog files under `locales/` are source files for "
 "translation review and should be committed when they change. CI also runs"
@@ -97,11 +111,17 @@ msgid ""
 "docs build."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:41
+#: ../../CONTRIBUTING.md:53
+msgid ""
+"See [Translation maintenance](TRANSLATION.md) for the current migration "
+"status and hosted translation platform evaluation."
+msgstr ""
+
+#: ../../CONTRIBUTING.md:55
 msgid "Community architecture"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:42
+#: ../../CONTRIBUTING.md:56
 msgid ""
 "We've defined a set of roles and responsibilities around an initial, core"
 " group of contributors most familiar with the goals of the project. "
@@ -109,64 +129,64 @@ msgid ""
 "update our contribution guidelines accordingly."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:44
+#: ../../CONTRIBUTING.md:58
 msgid "At the moment:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:46
+#: ../../CONTRIBUTING.md:60
 msgid ""
 "Project Lead Karsten Wade (@quaid) is responsible for providing vision "
 "and leadership to evolve from his original 1.0 work"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:47
+#: ../../CONTRIBUTING.md:61
 msgid ""
 "Lead Editor Brian Proffitt (@bproffitt) is responsible for leading a team"
 " of editors to work with multiple authors and content sources toward a "
 "cohesive, highly readable guide"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:48
+#: ../../CONTRIBUTING.md:62
 msgid ""
 "Lead Writer Shaun McCance (@shaunix) is responsible for working directly "
 "with writers to shape their content into the level, style, and narrative "
 "of the overall guide"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:49
+#: ../../CONTRIBUTING.md:63
 msgid ""
 "Editing team (Brian Proffitt, Karsten Wade, Shaun McCance) is responsible"
 " for polishing and integrating submissions to ensure consistency of "
 "quality and voice"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:50
+#: ../../CONTRIBUTING.md:64
 msgid ""
 "Writing team (Bryan Behrenshausen (@semioticrobotic), Brian Proffitt, "
 "Karsten Wade, Shaun McCance) is responsible for composing, collecting, "
 "and otherwise curating materials included in the guidebook."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:52
+#: ../../CONTRIBUTING.md:66
 msgid "Contribution process"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:54
+#: ../../CONTRIBUTING.md:68
 msgid "1. Review outstanding issues"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:56
+#: ../../CONTRIBUTING.md:70
 msgid ""
 "Check [the list of outstanding "
 "issues](https://github.com/theopensourceway/guidebook/issues) to identify"
 " something the project needs and you'd like to offer."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:58
+#: ../../CONTRIBUTING.md:72
 msgid "2. Raise your hand"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:60
+#: ../../CONTRIBUTING.md:74
 msgid ""
 "Once you've found an issue you can help us address, join the conversation"
 " about it. You can do this by responding to a pre-existing "
@@ -177,44 +197,44 @@ msgid ""
 "volunteering to add new material or assist with."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:62
+#: ../../CONTRIBUTING.md:76
 msgid "3. Start working"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:64
+#: ../../CONTRIBUTING.md:78
 msgid "We classify issues into three general types:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:66
+#: ../../CONTRIBUTING.md:80
 msgid ""
 "`Bug`: Something is broken and needs to be fixed (a link does work, a "
 "word is misspelled, a footnote points to the wrong place, etc.)"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:67
+#: ../../CONTRIBUTING.md:81
 msgid ""
 "`Feature`: Something is missing that should be added (an existing chapter"
 " could be expanded, a new chapter could be added, etc.)"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:68
+#: ../../CONTRIBUTING.md:82
 msgid ""
 "`Task`: Something that isn't necessarily *broken* or *missing* but "
 "nevertheless needs to be *done* (chapters could be re-ordered, a new "
 "version of the guide should ship, etc.)"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:70
+#: ../../CONTRIBUTING.md:84
 msgid "Providing a bugfix"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:72
+#: ../../CONTRIBUTING.md:86
 msgid ""
 "If you've selected an issue marked `Bug`, you can start contributing "
 "immediately following these steps:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:74
+#: ../../CONTRIBUTING.md:88
 msgid ""
 "Comment on [the "
 "issue](https://github.com/theopensourceway/guidebook/issues) you've "
@@ -222,31 +242,31 @@ msgid ""
 " contributing."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:75
+#: ../../CONTRIBUTING.md:89
 msgid ""
 "Alternatively, simply dive right in a fix the issue by opening a pull "
 "request! Link that pull request to an open issue so maintainers know what"
 " your work is meant to address."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:76
+#: ../../CONTRIBUTING.md:90
 msgid ""
 "Refer to the project [style guide](https://github.com/theopensourceway"
 "/the-project/wiki/Style-Guide) (updated regularly) for guidance on how to"
 " format your fixes."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:78
+#: ../../CONTRIBUTING.md:92
 msgid "Adding a feature"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:80
+#: ../../CONTRIBUTING.md:94
 msgid ""
 "If you've selected an issue marked `Feature`, you can start contributing "
 "immediately following these steps:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:82
+#: ../../CONTRIBUTING.md:96
 msgid ""
 "If you're prosing a new chapter, open [an "
 "issue](https://github.com/theopensourceway/guidebook/issues) to describe "
@@ -256,7 +276,7 @@ msgid ""
 "ask! Don't let a blank page (or file) keep you from getting started."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:83
+#: ../../CONTRIBUTING.md:97
 msgid ""
 "If you're proposing material for a pre-existing chapter, fork the project"
 " repository and add material on a topic of your choice to that chapter. "
@@ -264,7 +284,7 @@ msgid ""
 " what you've added and work with you to polish it."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:84
+#: ../../CONTRIBUTING.md:98
 msgid ""
 "Refer to the project [style guide](https://github.com/theopensourceway"
 "/the-project/wiki/Style-Guide) (updated regularly) for pointers—but don't"
@@ -272,45 +292,45 @@ msgid ""
 "work before it's finished."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:86
+#: ../../CONTRIBUTING.md:100
 msgid "Completing a task"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:88
+#: ../../CONTRIBUTING.md:102
 msgid ""
 "If you've selected an issue marked `Task`, you can start contributing "
 "immediately by following these steps:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:90
+#: ../../CONTRIBUTING.md:104
 msgid ""
 "Comment on [the "
 "issue](https://github.com/theopensourceway/guidebook/issues) you've "
 "selected, indicating your willingness to pitch in."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:91
+#: ../../CONTRIBUTING.md:105
 msgid ""
 "Describe your proposed approach to completing the task. Occasionally, "
 "issues of this type will contain *problems* but not *solutions*. Help us "
 "identify the solution!"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:93
+#: ../../CONTRIBUTING.md:107
 msgid "Suggesting a change via a GitHub pull request"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:95
+#: ../../CONTRIBUTING.md:109
 msgid ""
 "You are welcome to make pull requests against this repo from your own "
 "fork. Here is how we recommend you manage this:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:97
+#: ../../CONTRIBUTING.md:111
 msgid "Forking and cloning the upstream repo"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:99
+#: ../../CONTRIBUTING.md:113
 msgid ""
 "Go to https://github.com/theopensourceway/guidebook and click on the "
 "'''Fork''' button, and make a fork in your own repo. Tip: modify the name"
@@ -318,52 +338,52 @@ msgid ""
 "`yourname-fork-reponame`"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:101
+#: ../../CONTRIBUTING.md:115
 msgid ""
 "Go to your personal fork at https://github.com/you/forkname, click "
 "'''Code''' > Local > SSH, and click the copy icon to the right of the "
 "URL."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:102
+#: ../../CONTRIBUTING.md:116
 msgid "Open your command line session and clone your repo locally:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:103
+#: ../../CONTRIBUTING.md:117
 msgid "`git clone git@github.com:[you]/[you]-tosw-guidebook.git`"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:104
+#: ../../CONTRIBUTING.md:118
 msgid "`cd [you]-tosw-guidebook`"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:105
+#: ../../CONTRIBUTING.md:119
 msgid "Add the upstream repo so your clone can sync with upstream:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:106
+#: ../../CONTRIBUTING.md:120
 msgid "`git remote add upstream git@github.com:theopensourceway/guidebook.git`"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:107
+#: ../../CONTRIBUTING.md:121
 msgid "Check your configuration to be like this:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:115
+#: ../../CONTRIBUTING.md:129
 msgid "Confirm that you can sync with upstream:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:125
+#: ../../CONTRIBUTING.md:139
 msgid "Making changes and pushing them to GitHub as a pull request (PR)"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:127
+#: ../../CONTRIBUTING.md:141
 msgid ""
 "When you want to make a change, you will make the change in your clone "
 "and submit the change to the upstream as a pull request (PR)."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:129
+#: ../../CONTRIBUTING.md:143
 msgid ""
 "We recommend you also work in a branch within your clone. This is "
 "necessary if you want to work on more than one change intended for "
@@ -371,37 +391,37 @@ msgid ""
 "working on by checking which branch you are in."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:140
+#: ../../CONTRIBUTING.md:154
 msgid ""
 "This confirms you are working in the branch `you-copyedits-01` and are "
 "ready for 01 or more copyedit submissions."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:142
+#: ../../CONTRIBUTING.md:156
 msgid "Creating the PR"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:144
+#: ../../CONTRIBUTING.md:158
 msgid ""
 "When you are ready to push your changes from local to GitHub, you need to"
 " commit them and configure the push:"
 msgstr ""
 
-#: ../../CONTRIBUTING.md:152
+#: ../../CONTRIBUTING.md:166
 msgid ""
 "The output will look something like the below. Note the link include in "
 "the output for making a PR only makes the PR in your fork ''not'' in the "
 "upstream."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:154
+#: ../../CONTRIBUTING.md:168
 msgid ""
 "To make the PR in the upstream, visit "
 "https://github.com/theopensourceway/guidebook ; you may need to reload "
 "the page for the '''Compare & pull request''' button to appear."
 msgstr ""
 
-#: ../../CONTRIBUTING.md:174
+#: ../../CONTRIBUTING.md:188
 msgid ""
 "Follow the steps in the pull request dialog, adding any addition comments"
 " you want. You can fill out other details if you know the answers, "
