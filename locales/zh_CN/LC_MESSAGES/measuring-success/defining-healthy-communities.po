@@ -607,11 +607,11 @@ msgid ""
 "A discussion doesn't exist unless it's on the community forum—send at least "
 "a summary of all non-public discussions to the mailing list, with the "
 "conclusions open for further discussion."
-msgstr "流程中不应设置任何非公开的阻碍环节"
+msgstr "讨论若未出现在社区论坛上，就不算真正存在。请至少将所有非公开讨论的摘要发送到邮件列表，并公开结论以便进一步讨论。"
 
 #: ../../measuring-success/defining-healthy-communities.md:160
 msgid "Do not put any non-public blocking steps in your process"
-msgstr "任何可能阻碍发布或开发流程的内容都不应设为非公开状态。例如，你不希望出现这种情况：告诉社区某个私有测试环境出了问题，却无法重现问题供他们审查。你需要全面检查整个流程，找出非公开环节，并设法将其公开化。某些测试和开发基础设施可能目前处于非公开状态，需要制定方案使其公开。在某些情况下，（至少短期内）能做到的最佳方案是公开测试报告。最终你甚至可能需要帮助他人在公有云搭建类似环境，只为确保流程持续畅通。"
+msgstr "流程中不应设置任何非公开的阻碍环节"
 
 #: ../../measuring-success/defining-healthy-communities.md:162
 msgid ""
@@ -625,11 +625,11 @@ msgid ""
 "(for at least the short-term) is to make reports public. You may end up "
 "helping other people to create a similar environment in a public cloud "
 "simply to make sure processes are kept flowing."
-msgstr "对内容和代码都使用版本控制"
+msgstr "任何可能阻碍发布或开发流程的内容都不应设为非公开状态。例如，你不希望出现这种情况：告诉社区某个私有测试环境出了问题，却无法重现问题供他们审查。你需要全面检查整个流程，找出非公开环节，并设法将其公开化。某些测试和开发基础设施可能目前处于非公开状态，需要制定方案使其公开。在某些情况下，（至少短期内）能做到的最佳方案是公开测试报告。最终你甚至可能需要帮助他人在公有云搭建类似环境，只为确保流程持续畅通。"
 
 #: ../../measuring-success/defining-healthy-communities.md:164
 msgid "Use version control for your content as well as code"
-msgstr "这样每个人都能追踪变更。能够回退工作成果鼓励人们大胆创新。项目工作的一个基本准则就是，对代码库或文档的修改本身就是一种说明。提交记录中的变更不言自明。正因如此，所有变更都必须附带解释修改原因的注释或摘要。文档的版本控制就是元文档，它提供了\"为什么修改\"的背景信息。同样重要的是，所有项目成员都要关注这些变更。在论坛、错误报告或文档讨论页面对变更作出回应，能让讨论始终围绕原始修改点展开。"
+msgstr "对内容和代码都使用版本控制"
 
 #: ../../measuring-success/defining-healthy-communities.md:166
 msgid ""
@@ -643,13 +643,11 @@ msgid ""
 "is that all project members watch these changes. Responding to the changes "
 "on a forum, bug report, or documentation discussion page keeps the "
 "discussion associated with the node of origin."
-msgstr "选择可扩展的开源工具"
+msgstr "这样每个人都能追踪变更。能够回退工作成果鼓励人们大胆创新。项目工作的一个基本准则就是，对代码库或文档的修改本身就是一种说明。提交记录中的变更不言自明。正因如此，所有变更都必须附带解释修改原因的注释或摘要。文档的版本控制就是元文档，它提供了\"为什么修改\"的背景信息。同样重要的是，所有项目成员都要关注这些变更。在论坛、错误报告或文档讨论页面对变更作出回应，能让讨论始终围绕原始修改点展开。"
 
 #: ../../measuring-success/defining-healthy-communities.md:168
 msgid "Choose open tools that can be extended"
-msgstr ""
-"不要仅仅因为小团队最熟悉某些工具就选择它们。匆忙间为求快而草率决定也需谨慎。关于工具的选择，应与可信赖的社区领袖商讨后再做决定。尽可能明确治理规则 "
-"即便最终选择与其他社区成员步调不一致，至少你能清楚原因并做好风险应对准备。选用社区难以自主扩展的封闭工具存在风险。"
+msgstr "选择可扩展的开源工具"
 
 #: ../../measuring-success/defining-healthy-communities.md:170
 msgid ""
@@ -660,13 +658,15 @@ msgid ""
 " something out of step with other community members, you will at least know "
 "why you did and be prepared to mitigate risk. It is risky to choose closed "
 "tools that a community cannot easily scale itself."
-msgstr "确保每个人都能通过平等明确的途径，向开源工具提交写入权限"
+msgstr ""
+"不要仅仅因为小团队最熟悉某些工具就选择它们。匆忙间为求快而草率决定也需谨慎。关于工具的选择，应与可信赖的社区领袖商讨后再做决定。尽可能明确治理规则 "
+"即便最终选择与其他社区成员步调不一致，至少你能清楚原因并做好风险应对准备。选用社区难以自主扩展的封闭工具存在风险。"
 
 #: ../../measuring-success/defining-healthy-communities.md:172
 msgid ""
 "Make sure everyone has an equal and clear method for access to write-commit "
 "to open tools"
-msgstr "通过代码和内容的版本控制，你可以向更多人开放访问权限。例如，不必要求人们经历冗长的流程或用若干补丁来\"证明\"自己。赋予人们实现改变所需的任何权限，即使他们并未使用这些权限。维基百科就是绝佳范例——他们依靠社区规模的力量来监管不良内容修改，而非通过内容修改规则限制社区规模。愿意为项目贡献力量的人远多于蓄意破坏者。不要因少数人可能作恶而惩罚那些行善者。"
+msgstr "确保每个人都能通过平等明确的途径，向开源工具提交写入权限"
 
 #: ../../measuring-success/defining-healthy-communities.md:174
 msgid ""
@@ -679,11 +679,11 @@ msgid ""
 "behind rules of what it takes to write content changes. More people want to "
 "do good for your project than want to do bad. Don't punish the do-gooders "
 "because of the potential evil someone might do."
-msgstr "尽可能清晰地制定治理规则"
+msgstr "通过代码和内容的版本控制，你可以向更多人开放访问权限。例如，不必要求人们经历冗长的流程或用若干补丁来\"证明\"自己。赋予人们实现改变所需的任何权限，即使他们并未使用这些权限。维基百科就是绝佳范例——他们依靠社区规模的力量来监管不良内容修改，而非通过内容修改规则限制社区规模。愿意为项目贡献力量的人远多于蓄意破坏者。不要因少数人可能作恶而惩罚那些行善者。"
 
 #: ../../measuring-success/defining-healthy-communities.md:176
 msgid "Make governance as clear as possible"
-msgstr "无论他们寻求什么，无论他们需要什么，你的贡献者社区都不希望面对令人困惑的治理架构。倾听反馈并修改文档，以推动表述方式和理解共识的演进——由此可能带来治理机制本身的进化，同时保持实现路径的透明度。"
+msgstr "尽可能清晰地制定治理规则"
 
 #: ../../measuring-success/defining-healthy-communities.md:178
 msgid ""
@@ -692,11 +692,11 @@ msgid ""
 " and make document changes to evolve the language and understanding From "
 "that may come evolution of the governance itself, with the corresponding "
 "transparency at getting there."
-msgstr "别让有害分子拖累社区"
+msgstr "无论他们寻求什么，无论他们需要什么，你的贡献者社区都不希望面对令人困惑的治理架构。倾听反馈并修改文档，以推动表述方式和理解共识的演进——由此可能带来治理机制本身的进化，同时保持实现路径的透明度。"
 
 #: ../../measuring-success/defining-healthy-communities.md:180
 msgid "Do not let poisonous people bog down the community"
-msgstr "谨记宽容悖论：若无限度地宽容，你的宽容能力[终将被不宽容者剥夺或摧毁](https://en.wikipedia.org/wiki/Paradox_of_tolerance)。"
+msgstr "别让有害分子拖累社区"
 
 #: ../../measuring-success/defining-healthy-communities.md:182
 msgid ""
@@ -704,11 +704,11 @@ msgid ""
 "tolerance](https://en.wikipedia.org/wiki/Paradox_of_tolerance): if you are "
 "tolerant without limit, your ability to be tolerant is eventually seized or "
 "destroyed by the intolerant."
-msgstr "寻求共识，投票作为最后手段"
+msgstr "谨记宽容悖论：若无限度地宽容，你的宽容能力[终将被不宽容者剥夺或摧毁](https://en.wikipedia.org/wiki/Paradox_of_tolerance)。"
 
 #: ../../measuring-success/defining-healthy-communities.md:184
 msgid "Seek consensus, use voting as a last resort"
-msgstr "在开放社区中，大多数决策并非通过投票决定。正如运作良好的民主制度一样，决策由专家和知情人士处理，他们凭借周围人群的意愿行使职权。投票机制最适用于决定由谁掌权，以及偶尔出现的极具争议性问题。难道你不希望这些争议不存在吗？是否渴望能回到过去达成共识？"
+msgstr "寻求共识，投票作为最后手段"
 
 #: ../../measuring-success/defining-healthy-communities.md:186
 msgid ""
@@ -718,14 +718,14 @@ msgid ""
 "best left for deciding who is in charge and the occasional very contentious "
 "issue. Don't you wish it weren't contentious? Wish you could go back and "
 "make a consensus?"
-msgstr "切勿忘记\"早发布、常发布\"的原则"
+msgstr "在开放社区中，大多数决策并非通过投票决定。正如运作良好的民主制度一样，决策由专家和知情人士处理，他们凭借周围人群的意愿行使职权。投票机制最适用于决定由谁掌权，以及偶尔出现的极具争议性问题。难道你不希望这些争议不存在吗？是否渴望能回到过去达成共识？"
 
 #: ../../measuring-success/defining-healthy-communities.md:188
 msgid ""
 "Do not forget to release early and release often <a "
 "href=\"#do_not_forget_to_release_early_and_release_often\" "
 "id=\"do_not_forget_to_release_early_and_release_often\"></a>"
-msgstr "对于开放协作的成功而言，最关键的是任何工作成果都不应被\"等到完美无缺\"才发布。我们许多人都有这样的倾向：将代码、内容或想法保密，直到它们足够完善、足够精炼才让他人审阅。在开源开发方法论中，这种追求完美恰恰是\"足够好\"的敌人。创新是一个以新颖甚至重复的方式在现有想法基础上构建的过程。我们需要让他人尽早且频繁地看到我们的想法，这样他们的意见才能在想法固化前加以改进。必须遵循\"绝不因未完成而保留\"的原则。将其视为禅修实践——尽早发布、频繁发布，每天甚至每小时发布都在所不惜。"
+msgstr "切勿忘记\"早发布、常发布\"的原则"
 
 #: ../../measuring-success/defining-healthy-communities.md:190
 msgid ""
@@ -739,11 +739,11 @@ msgid ""
 "influence can improve the ideas before they are too fixed to be improved. "
 "Make it the rule that nothing is held back until finished. Treat it like a "
 "Zen practice—release early and often, every day or every hour if need-be."
-msgstr "尽早发布、频繁发布不仅适用于代码"
+msgstr "对于开放协作的成功而言，最关键的是任何工作成果都不应被\"等到完美无缺\"才发布。我们许多人都有这样的倾向：将代码、内容或想法保密，直到它们足够完善、足够精炼才让他人审阅。在开源开发方法论中，这种追求完美恰恰是\"足够好\"的敌人。创新是一个以新颖甚至重复的方式在现有想法基础上构建的过程。我们需要让他人尽早且频繁地看到我们的想法，这样他们的意见才能在想法固化前加以改进。必须遵循\"绝不因未完成而保留\"的原则。将其视为禅修实践——尽早发布、频繁发布，每天甚至每小时发布都在所不惜。"
 
 #: ../../measuring-success/defining-healthy-communities.md:192
 msgid "Release early and release often is for more than just code"
-msgstr "每个想法都应尽早获得展现的机会。常见的错误是等到文档、流程、营销方案等\"完美无缺\"时才发布。那些完全明白代码不能这样做的人，在涉及项目其他部分时却会忘记这一点。请遵循以下原则："
+msgstr "尽早发布、频繁发布不仅适用于代码"
 
 #: ../../measuring-success/defining-healthy-communities.md:194
 msgid ""
@@ -751,51 +751,51 @@ msgid ""
 "is to wait to release a document, process, marketing plan, etc. until it is "
 "\"just right\". People who otherwise fully understand how not to do this in "
 "code forget when it comes to other parts of a project. Apply this rule:"
-msgstr "若信息涉及机密，则予以保密；；"
+msgstr "每个想法都应尽早获得展现的机会。常见的错误是等到文档、流程、营销方案等\"完美无缺\"时才发布。那些完全明白代码不能这样做的人，在涉及项目其他部分时却会忘记这一点。请遵循以下原则："
 
 #: ../../measuring-success/defining-healthy-communities.md:196
 msgid "If a piece of information is confidential, keep it private;"
-msgstr "否则，请尽快使用以下方式将其公之于众："
+msgstr "若信息涉及机密，则予以保密；；"
 
 #: ../../measuring-success/defining-healthy-communities.md:197
 msgid "Otherwise, get it out in the public soonest using techniques such as:"
-msgstr "在邮件列表/论坛上交流想法"
+msgstr "否则，请尽快使用以下方式将其公之于众："
 
 #: ../../measuring-success/defining-healthy-communities.md:198
 msgid "Bounce the idea off the mailing list(s)/forums"
-msgstr "创建 wiki 页面"
+msgstr "在邮件列表/论坛上交流想法"
 
 #: ../../measuring-success/defining-healthy-communities.md:199
 msgid "Make a wiki page"
-msgstr "添加到另一个 wiki 页面"
+msgstr "创建 wiki 页面"
 
 #: ../../measuring-success/defining-healthy-communities.md:200
 msgid "Add to another wiki page"
-msgstr "在问题跟踪系统中提交工单"
+msgstr "添加到另一个 wiki 页面"
 
 #: ../../measuring-success/defining-healthy-communities.md:201
 msgid "File a ticket in a tracking system"
-msgstr "制作非编码的原型"
+msgstr "在问题跟踪系统中提交工单"
 
 #: ../../measuring-success/defining-healthy-communities.md:202
 msgid "Make a non-coding prototype"
-msgstr "可视化编辑器中的线框网页"
+msgstr "制作非编码的原型"
 
 #: ../../measuring-success/defining-healthy-communities.md:203
 msgid "Wireform web page in a wysiwyg editor"
-msgstr "图形化模型/拼贴图"
+msgstr "可视化编辑器中的线框网页"
 
 #: ../../measuring-success/defining-healthy-communities.md:204
 msgid "Graphical mock-up/collage"
-msgstr "草图（扫描或拍照存档）"
+msgstr "图形化模型/拼贴图"
 
 #: ../../measuring-success/defining-healthy-communities.md:205
 msgid "Bar napkin and pen, scanned or photographed"
-msgstr "随着受众和贡献者群体的成长而演进"
+msgstr "草图（扫描或拍照存档）"
 
 #: ../../measuring-success/defining-healthy-communities.md:207
 msgid "Evolve with the growth of your audience and contributors"
-msgstr "说\"我们为特定受众设计了这样的功能\"很容易。但要成为唯一的创建者和维护者却并非易事。若想突破个人和小圈子的局限，就必须愿意接纳开放协作带来的新思路和新方向。"
+msgstr "随着受众和贡献者群体的成长而演进"
 
 #: ../../measuring-success/defining-healthy-communities.md:209
 msgid ""
@@ -804,11 +804,11 @@ msgid ""
 "maintainer, though. If you want to grow beyond just you and your niche "
 "group, you have to be willing to accept the influx of new ideas and "
 "directions that comes with open collaboration."
-msgstr "采用可预测的时间安排并坚持执行"
+msgstr "说\"我们为特定受众设计了这样的功能\"很容易。但要成为唯一的创建者和维护者却并非易事。若想突破个人和小圈子的局限，就必须愿意接纳开放协作带来的新思路和新方向。"
 
 #: ../../measuring-success/defining-healthy-communities.md:211
 msgid "Use a predictable schedule type and stick to it"
-msgstr "关于开源项目的发展速度存在诸多分歧。许多项目发现六个月的发布周期既不太长也不太短。无论选择何种进度安排，都需要坚持执行并让社区了解进度状态。记住，偶尔让人失望可以接受，但不要让人措手不及。开源项目主要有两种发布计划类型："
+msgstr "采用可预测的时间安排并坚持执行"
 
 #: ../../measuring-success/defining-healthy-communities.md:213
 msgid ""
@@ -818,15 +818,15 @@ msgid ""
 "stick to it and keep your community informed about the status of the "
 "schedule. Remember, it's OK to disappoint people sometimes, but not surprise"
 " them. There are two main types of schedule for delivering open source:"
-msgstr "基于时间"
+msgstr "关于开源项目的发展速度存在诸多分歧。许多项目发现六个月的发布周期既不太长也不太短。无论选择何种进度安排，都需要坚持执行并让社区了解进度状态。记住，偶尔让人失望可以接受，但不要让人措手不及。开源项目主要有两种发布计划类型："
 
 #: ../../measuring-success/defining-healthy-communities.md:215
 msgid "Time based"
-msgstr "基于功能"
+msgstr "基于时间"
 
 #: ../../measuring-success/defining-healthy-communities.md:216
 msgid "Feature based"
-msgstr "开源项目之所以经常采用基于时间的发布周期，是因为它能促使开发者尽早且频繁地发布版本，避免因等待功能完成而囤积代码。增量更新让社区有机会持续跟进、提供协助并参与贡献。即便你采用基于功能的发布计划，将其拆分为更小、基于时间节点的可交付成果也大有裨益。这种做法能维持社区参与热情，使其保持测试能力——成员们知道在固定可预期的时间间隔内，总会有新版本可供体验。"
+msgstr "基于功能"
 
 #: ../../measuring-success/defining-healthy-communities.md:218
 msgid ""
@@ -837,13 +837,13 @@ msgid ""
 "schedule, it is useful to break it down to smaller, time-based deliverables."
 " This keeps your community interested and able to test, knowing that at "
 "regular, predictable intervals there will be something for them to try out."
-msgstr "优秀的教师也是虚心的学生（善于提问并保持向他人学习的态度）"
+msgstr "开源项目之所以经常采用基于时间的发布周期，是因为它能促使开发者尽早且频繁地发布版本，避免因等待功能完成而囤积代码。增量更新让社区有机会持续跟进、提供协助并参与贡献。即便你采用基于功能的发布计划，将其拆分为更小、基于时间节点的可交付成果也大有裨益。这种做法能维持社区参与热情，使其保持测试能力——成员们知道在固定可预期的时间间隔内，总会有新版本可供体验。"
 
 #: ../../measuring-success/defining-healthy-communities.md:220
 msgid ""
 "A good teacher is a good student (ask questions and put yourself in a "
 "position of being taught by others)"
-msgstr "各个年龄段和经验水平的人都拥有值得贡献的知识与好奇心。通过设身处地向他们学习（正如他们可能也在向你学习），你可以与他们已知和想了解的事物建立联系。践行开源之道的一部分，就是教导他人为何以及如何采纳这种工作、思考和行动方式。在一切互动中，切忌预设自己是无所不知的专家。即便在熟悉的领域，也要敢于提出基础、看似愚蠢、开放且具有启发性的问题。任何能帮助你揭示并将\"开源之道\"原则映射到特定领域的问题，都值得提问。"
+msgstr "优秀的教师也是虚心的学生（善于提问并保持向他人学习的态度）"
 
 #: ../../measuring-success/defining-healthy-communities.md:222
 msgid ""
@@ -857,11 +857,11 @@ msgid ""
 "familiar with, ask basic and dumb and open and revealing questions. Ask any "
 "questions that help you make sure to reveal and map the principles of The "
 "Open Source Way to an individual domain."
-msgstr "努力将准入门槛降至最低"
+msgstr "各个年龄段和经验水平的人都拥有值得贡献的知识与好奇心。通过设身处地向他们学习（正如他们可能也在向你学习），你可以与他们已知和想了解的事物建立联系。践行开源之道的一部分，就是教导他人为何以及如何采纳这种工作、思考和行动方式。在一切互动中，切忌预设自己是无所不知的专家。即便在熟悉的领域，也要敢于提出基础、看似愚蠢、开放且具有启发性的问题。任何能帮助你揭示并将\"开源之道\"原则映射到特定领域的问题，都值得提问。"
 
 #: ../../measuring-success/defining-healthy-communities.md:224
 msgid "Strive to drive barriers as low as possible"
-msgstr "开源项目必须降低准入门槛。人们和组织机构投入了时间和其他资源，因此如果要设置任何障碍，必须确保其目的明确且理由充分。否则，这种隐形障碍会让人群在你察觉之前就已悄然流失。当新参与者遭遇实际存在的、隐含的或意外设置的障碍时，其中一定比例的人会立即选择退出。至少，如果你能告知他们障碍的存在及其缘由，这些人离开时是明明白白而非因困惑放弃。若想获得开放的协作者，就必须将所有门槛尽可能降低。必须清晰地公示这种准入层级。如果存在权限等级——从\"可以给邮件列表发信并提交缺陷报告\"到\"能够向源码库提交重大代码变更\"——就必须明确说明这些等级划分及获取方式。"
+msgstr "努力将准入门槛降至最低"
 
 #: ../../measuring-success/defining-healthy-communities.md:226
 msgid ""
@@ -879,7 +879,7 @@ msgid ""
 "\"can write to the mailing list and file bugs\" all the way over to \"can "
 "commit major code changes to the source repository\", then you must make it "
 "clear what these levels are and how to obtain them."
-msgstr "维基百科是一个人人平等参与的典范。然而，社区中实际存在着以某些信息页面为核心的层级结构。任何人都能轻松编辑页面（甚至匿名操作），但要使修改得以保留（不被该信息社区的页面维护者回退），还需跨越其他更为隐形的门槛。如果某些页面的信息社区对匿名编辑审核极为严格，这可能会打击部分临时编辑者的积极性。而另一些页面周围可能不存在如此严格的信息社区，匿名编辑就更易被保留。最终，这种情况可能影响维基百科的声誉——有些人亲身经历或感觉维基百科存在他们无法看清或逾越的隐形准入门槛。"
+msgstr "开源项目必须降低准入门槛。人们和组织机构投入了时间和其他资源，因此如果要设置任何障碍，必须确保其目的明确且理由充分。否则，这种隐形障碍会让人群在你察觉之前就已悄然流失。当新参与者遭遇实际存在的、隐含的或意外设置的障碍时，其中一定比例的人会立即选择退出。至少，如果你能告知他们障碍的存在及其缘由，这些人离开时是明明白白而非因困惑放弃。若想获得开放的协作者，就必须将所有门槛尽可能降低。必须清晰地公示这种准入层级。如果存在权限等级——从\"可以给邮件列表发信并提交缺陷报告\"到\"能够向源码库提交重大代码变更\"——就必须明确说明这些等级划分及获取方式。"
 
 #: ../../measuring-success/defining-healthy-communities.md:228
 msgid ""
@@ -894,11 +894,11 @@ msgid ""
 "around them, so anonymous edits are stickier. In the end, this may affect "
 "Wikipedia's reputation—some people have experienced or perceive that "
 "Wikipedia has an invisible barrier to entry they can't see or overcome."
-msgstr "突出活动与参与度"
+msgstr "维基百科是一个人人平等参与的典范。然而，社区中实际存在着以某些信息页面为核心的层级结构。任何人都能轻松编辑页面（甚至匿名操作），但要使修改得以保留（不被该信息社区的页面维护者回退），还需跨越其他更为隐形的门槛。如果某些页面的信息社区对匿名编辑审核极为严格，这可能会打击部分临时编辑者的积极性。而另一些页面周围可能不存在如此严格的信息社区，匿名编辑就更易被保留。最终，这种情况可能影响维基百科的声誉——有些人亲身经历或感觉维基百科存在他们无法看清或逾越的隐形准入门槛。"
 
 #: ../../measuring-success/defining-healthy-communities.md:230
 msgid "Highlight activity and participation"
-msgstr "人们渴望看到自己，也好奇他人在做什么。这正是咖啡馆小坐比在家喝咖啡更显特别的原因——它是一个社交场所，正如开源社区的种种互动也发生在这样的社会空间中。构建能够轻松展现社区活动的系统与流程至关重要。有时，这可能是通过游戏化设计实现，比如徽章、排行榜等形式；而大多数情况下，它意味着在项目发布时确保每位贡献者都能以姓名及其贡献类型/领域获得认可。"
+msgstr "突出活动与参与度"
 
 #: ../../measuring-success/defining-healthy-communities.md:232
 msgid ""
@@ -910,11 +910,11 @@ msgid ""
 "gamification, with badges, leaderboards, and the like. In most cases, this "
 "includes making sure that _everyone_ is acknowledged by name and type/area "
 "of contribution when you conduct a release."
-msgstr "通过文档的力量让新人快速成为贡献者"
+msgstr "人们渴望看到自己，也好奇他人在做什么。这正是咖啡馆小坐比在家喝咖啡更显特别的原因——它是一个社交场所，正如开源社区的种种互动也发生在这样的社会空间中。构建能够轻松展现社区活动的系统与流程至关重要。有时，这可能是通过游戏化设计实现，比如徽章、排行榜等形式；而大多数情况下，它意味着在项目发布时确保每位贡献者都能以姓名及其贡献类型/领域获得认可。"
 
 #: ../../measuring-success/defining-healthy-communities.md:234
 msgid "Turn newcomers into instant contributors with the Power of To-Document"
-msgstr "让社区文化倡导在寻求帮助时记录答案。理想情况下，提问者应负责完成记录工作。系统应简化这一流程，使其易于操作。提供帮助者可要求对方将解答过程归档。当提问者是社区新成员时，这能立即将其转化为贡献者的绝佳方式。"
+msgstr "通过文档的力量让新人快速成为贡献者"
 
 #: ../../measuring-success/defining-healthy-communities.md:236
 msgid ""
@@ -923,47 +923,47 @@ msgid ""
 "make it easy for them to do so. People offering help can require that the "
 "help be documented. When the asker is a new member of the community, this is"
 " a great way to turn them into an instant contributor."
-msgstr "四大基本美德"
+msgstr "让社区文化倡导在寻求帮助时记录答案。理想情况下，提问者应负责完成记录工作。系统应简化这一流程，使其易于操作。提供帮助者可要求对方将解答过程归档。当提问者是社区新成员时，这能立即将其转化为贡献者的绝佳方式。"
 
 #: ../../measuring-success/defining-healthy-communities.md:238
 msgid "Four shared virtues"
-msgstr "这四大美德由布莱恩·菲茨帕特里克和本·柯林斯-萨斯曼在其关于[规避社区有害人群的奠基性演讲中提出](https://www.youtube.com/watch?v=-F-3E8pyjFo)。"
+msgstr "四大基本美德"
 
 #: ../../measuring-success/defining-healthy-communities.md:240
 msgid ""
 "These four virtues were described by Brian Fitzpatrick and Ben Collins-"
 "Sussman in their seminal talk on [avoiding poisonous people in "
 "communities](https://www.youtube.com/watch?v=-F-3E8pyjFo)."
-msgstr "礼貌"
+msgstr "这四大美德由布莱恩·菲茨帕特里克和本·柯林斯-萨斯曼在其关于[规避社区有害人群的奠基性演讲中提出](https://www.youtube.com/watch?v=-F-3E8pyjFo)。"
 
 #: ../../measuring-success/defining-healthy-communities.md:242
 msgid "Politeness"
-msgstr "尊重"
+msgstr "礼貌"
 
 #: ../../measuring-success/defining-healthy-communities.md:243
 msgid "Respect"
-msgstr "信任"
+msgstr "尊重"
 
 #: ../../measuring-success/defining-healthy-communities.md:244
 msgid "Trust"
-msgstr "谦逊"
+msgstr "信任"
 
 #: ../../measuring-success/defining-healthy-communities.md:245
 msgid "Humility"
-msgstr "这些美德需要贯彻到社区的每个角落。无论是公开还是私下的讨论，从面对面交流到 IRC 等所有沟通渠道，有时甚至体现在项目本身的特质中。"
+msgstr "谦逊"
 
 #: ../../measuring-success/defining-healthy-communities.md:247
 msgid ""
 "These virtues need to be implemented in every part of the community. Public "
 "and private discussions, all communication channels from in person to IRC, "
 "and sometimes even in the nature of the project itself."
-msgstr "明确了解你希望帮助和吸引的用户（及贡献者）"
+msgstr "这些美德需要贯彻到社区的每个角落。无论是公开还是私下的讨论，从面对面交流到 IRC 等所有沟通渠道，有时甚至体现在项目本身的特质中。"
 
 #: ../../measuring-success/defining-healthy-communities.md:249
 msgid ""
 "Have a clear understanding of the users (and contributors) you hope to "
 "assist and engage"
-msgstr "这源于你最初的项目和社区规划。它应当成为你衡量社区持续健康发展指标的一部分，评估社区为成员所提供的价值。随着项目变化，当这方面的观念发生演变时，需要及时更新这种清晰认知。"
+msgstr "明确了解你希望帮助和吸引的用户（及贡献者）"
 
 #: ../../measuring-success/defining-healthy-communities.md:251
 msgid ""
@@ -982,7 +982,10 @@ msgid ""
 "you open that bubble and include them in the community view as a whole, "
 "their entire worldview is at risk whenever a change comes through the "
 "project."
-msgstr "功能蔓延存在一个副作用——即在开发过程中，通过用户和利益相关者的输入导致功能数量增加的现象。那些悄然潜入版本发布的功能，最终可能会吸引更多不同类型的使用者和贡献者。这些新成员的出现绝非坏事。但若他们未被预料或关注，就会成为社区中被忽视的群体。在被隔绝的认知气泡里，这些未被充分服务的群体对项目及软件应满足的需求形成了自己的理解。除非你打破这个气泡，将他们纳入整体社区视野，否则每当项目发生变更时，他们的整个认知体系都将面临风险。"
+msgstr ""
+"这源于你最初的项目和社区规划。它应当成为你衡量社区持续健康发展指标的一部分，评估社区为成员所提供的价值。随着项目变化，当这方面的观念发生演变时，需要及时更新这种清晰认知。"
+" "
+"功能蔓延存在一个副作用——即在开发过程中，通过用户和利益相关者的输入导致功能数量增加的现象。那些悄然潜入版本发布的功能，最终可能会吸引更多不同类型的使用者和贡献者。这些新成员的出现绝非坏事。但若他们未被预料或关注，就会成为社区中被忽视的群体。在被隔绝的认知气泡里，这些未被充分服务的群体对项目及软件应满足的需求形成了自己的理解。除非你打破这个气泡，将他们纳入整体社区视野，否则每当项目发生变更时，他们的整个认知体系都将面临风险。"
 
 #: ../../measuring-success/defining-healthy-communities.md:253
 msgid ""
