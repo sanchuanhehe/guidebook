@@ -2,24 +2,19 @@ config:
   default: true
   # Existing guidebook Markdown predates automated linting. Keep coverage on for
   # safe structural rules while avoiding a large prose-formatting rewrite.
-  MD004: false
   MD009: false
   MD010: false
   MD012: false
   MD013: false
   MD022: false
   MD026: false
-  MD029: false
-  MD030: false
   MD031: false
-  MD032: false
   MD033: false
   MD034: false
   MD036: false
   MD040: false
   MD047: false
   MD049: false
-  MD051: false
 
 globs:
   - "*.md"

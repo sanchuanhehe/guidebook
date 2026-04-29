@@ -66,6 +66,7 @@
 * semioticrobotic
 
 ## 翻译注释
+
 * release manager: 版本经理，符合行业习惯
 * voter: 投票者（非政治选举应该用中性词汇）
 * self-care: 自我关怀、自我关爱、自我保健→自我健康管理
