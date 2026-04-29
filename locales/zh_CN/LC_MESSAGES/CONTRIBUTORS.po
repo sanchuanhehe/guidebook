@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the The Open Source Way
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Open Source Way \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1970-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../CONTRIBUTORS.md:1
+msgid "Contributors"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:3
+msgid "Chapter authors"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:5
+msgid "Introduction: Presenting The Open Source Way"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:6 ../../CONTRIBUTORS.md:30 ../../CONTRIBUTORS.md:44
+msgid "Author(s): [Karsten Wade](mailto:kwade@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:7
+msgid "Community 101"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:8
+msgid ""
+"Author(s): [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), "
+"[Dave Neary](mailto:dneary@redhat.com), [Karsten "
+"Wade](mailto:kwade@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:9
+msgid "Essentials of Building a Community"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:10
+msgid "Author(s): [Andy Oram](mailto:andyo@praxagora.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:11
+msgid "Building a Strategy"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:12
+msgid ""
+"Author(s): [Dave Neary](mailto:dneary@redhat.com) (lead), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:13
+msgid "New Project Checklist"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:14
+msgid ""
+"Author(s): [Lisa Caywood](mailto:lcaywood@redhat.com), [Josh "
+"Berkus](mailto:jberkus@redhat.com), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Karsten "
+"Wade](mailto:kwade@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:15
+msgid "Editor: [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:16
+msgid "Communication Norms in Open Source Software Projects"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:17
+msgid "Author(s): [Leslie Hawthorn](mailto:lhawthor@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:18
+msgid ""
+"Editor(s)/Reviewer(s): [Paula Dickerson](mailto:pdickers@redhat.com) "
+"(lead), Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:19
+msgid "Building Diverse Open Source Communities by Making Them Inclusive First"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:20
+msgid "Author(s): [Lauren Maffeo](mailto:laurenmaffeo8@gmail.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:21
+msgid ""
+"Editor(s)/Reviewer(s): [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com) (lead), [Marina "
+"Zhurakhinskaya](mailto:marinaz@redhat.com) (subject matter expert (SME) "
+"reviewer), Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:22
+msgid "Why People Participate in Open Source Communities"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:23
+msgid "Author(s): [Gordon Haff](mailto:ghaff@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:24
+msgid ""
+"Editor(s)/Reviewer(s): [Brian Proffitt](mailto:bkp@redhat.com) (lead), "
+"Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:25
+msgid "Incentivizing and Rewarding Participants"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:26
+msgid "Author(s): [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:27
+msgid "From Users to Contributors"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:28
+msgid "Author(s): [Dave Neary](mailto:dneary@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:29
+msgid "What Is a Contribution?"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:31
+msgid "Constructing an Onboarding Experience"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:32
+msgid ""
+"Author(s): [Ray Paik](mailto:ray@cube.dev), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:33
+msgid "Creating a Culture of Mentorship"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:34
+msgid ""
+"Author(s): [Karsten Wade](mailto:kwade@redhat.com), [Guedis "
+"Cardenas](mailto:guedis@palante.co)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:35
+msgid "Project and Community Governance"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:36
+msgid ""
+"Author(s): [Dave Neary](mailto:dneary@redhat.com), [Josh "
+"Berkus](mailto:jberkus@redhat.com), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:37
+msgid ""
+"Editor(s)/Reviewer(s): [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com) (lead), Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:38
+msgid "Understanding Community Roles"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:39
+msgid ""
+"Author(s): [Andy Oram](mailto:andyo@praxagora.com), [Karsten "
+"Wade](mailto:kwade@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:40
+msgid "Community Manager Self-Care"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:41
+msgid "Author(s): [Ashley Nicolson](mailto:ashjayne.nicolson@gmail.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:42
+msgid ""
+"Editor(s)/Reviewer(s): [Karsten Wade](mailto:kwade@redhat.com) (lead), "
+"[Dr. Karen Hixson](https://www.karenhixsonlpc.com/) (subject matter "
+"expert (SME) reviewer), Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:43
+msgid "Defining Healthy Communities"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:45
+msgid "Understanding Community Metrics"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:46
+msgid ""
+"Author(s): [Ray Paik](mailto:ray@cube.dev), [Brian "
+"Proffitt](mailto:bkp@redhat.com), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:47
+msgid ""
+"Editor(s)/Reviewer(s): [Brian Proffitt](mailto:bkp@redhat.com) (lead), "
+"[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:48
+msgid "Announcing Software Releases"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:49
+msgid "Author(s): [Brian Proffitt](mailto:bkp@redhat.com)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:51
+msgid "Project teams"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:53
+msgid "Editorial team"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:55
+msgid "Brian Proffitt (lead)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:56
+msgid "Shaun McCance (lead writer)"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:57
+msgid "Bryan Behrenshausen"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:58
+msgid "Paula Dickerson"
+msgstr ""
+
+#: ../../CONTRIBUTORS.md:59
+msgid "Karsten Wade"
+msgstr ""

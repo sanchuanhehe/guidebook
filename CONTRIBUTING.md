@@ -9,6 +9,35 @@ Additionally, you can review outstanding [issues](https://github.com/theopensour
 
 For a more comprehensive look at the project, read [the wiki](https://github.com/theopensourceway/the-project/wiki).
 
+## Building docs and maintaining translations
+
+This repository uses [uv](https://docs.astral.sh/uv/) to manage the documentation toolchain. From a clean checkout, install uv and run:
+
+```
+uv sync
+```
+
+Build the English guidebook preview with:
+
+```
+uv run sphinx-build -b html . _build/html/en
+```
+
+The translation workflow uses Sphinx gettext catalogs. The current Chinese Markdown localization under `l10n/cn` maps to the Sphinx locale code `zh_CN`. To refresh translation catalogs after English source changes, run:
+
+```
+SOURCE_DATE_EPOCH=0 uv run sphinx-build -b gettext . _build/gettext
+uv run sphinx-intl update -p _build/gettext -l zh_CN --locale-dir locales
+```
+
+Build the Chinese preview with:
+
+```
+uv run sphinx-build -b html -D language=zh_CN . _build/html/zh_CN
+```
+
+Generated files under `_build/` are local preview artifacts and should not be committed. Catalog files under `locales/` are source files for translation review and should be committed when they change. CI also runs an advisory external link check; third-party sites can return redirects or access-denied responses that should be reviewed separately from the docs build.
+
 ## Community architecture
 We've defined a set of roles and responsibilities around an initial, core group of contributors most familiar with the goals of the project. Beyond that, we'll evolve with the participation of new contributors and update our contribution guidelines accordingly.
 

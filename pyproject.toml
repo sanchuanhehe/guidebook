@@ -1,0 +1,17 @@
+[project]
+name = "guidebook-docs"
+version = "0.1.0"
+description = "Documentation build and translation tooling for The Open Source Way guidebook."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "myst-parser>=4.0.1",
+    "sphinx>=8.2.3",
+    "sphinx-intl>=2.3.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = []

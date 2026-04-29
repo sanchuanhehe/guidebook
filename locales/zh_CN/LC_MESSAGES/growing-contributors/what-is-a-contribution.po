@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the The Open Source Way
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Open Source Way \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 1970-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../growing-contributors/what-is-a-contribution.md:7
+msgid "What Is a Contribution?"
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:9
+msgid ""
+"There is a common misunderstanding that only code and possibly "
+"documentation are a \"true\" contribution to an open source project. This"
+" terrible idea has a name that deserves to stay a part of history, \"code"
+" is king.\" Let's have no more of that."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:11
+msgid ""
+"In truth, there are exponentially more ways to contribute than just those"
+" two ways. And exponentially more value for the project and the diverse "
+"group of contributors making those contributions."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:13
+msgid ""
+"**An open source contribution**   Any original, intentional, and "
+"substantive object given freely to an open source community, under the "
+"licensing of that community. A contribution can come from an individual "
+"or a community."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:16
+msgid ""
+"**An open source contributor**   Any individual person involved in making"
+" Contributions to the community. Communities are interpersonal by their "
+"nature. They consist of humans, not organizations. Organizations can send"
+" their members, staff, leaders, and so forth out to make contributions to"
+" a community as a contributor."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:19
+msgid "Examples of specific contributions (objects):"
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:21
+msgid "An idea."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:22
+msgid "A design suggestion."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:23
+msgid "Creating or improving a process."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:24
+msgid "Performing any sustained effort."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:25
+msgid ""
+"A piece of content, such as a document, release announcement, interview, "
+"how-to article, operations page, and so forth."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:26
+msgid ""
+"Code, a type of content that instructs machines to do things, regardless "
+"of the type of code."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:27
+msgid "Physical materials, such as servers or contributor gifts."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:28
+msgid ""
+"Monetary, where possible and welcome. (This is not always an easy or even"
+" possible way to contribute to many open source projects.)"
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:29
+msgid "Being a moderator on a forum."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:30
+msgid "Helping at an event"
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:31
+msgid "Being the manager for a release."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:32
+msgid "A website design."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:33
+msgid "An automation script."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:34
+msgid "A test suite."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:35
+msgid "Testing and bug reporting."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:36
+msgid "Build a relationship with between two projects."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:37
+msgid "Write a marketing plan."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:38
+msgid "Creating a roadmap."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:39
+msgid "Performing project management (PM) skills for an effort in the community."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:40
+msgid "Doing quantitative or qualitative analysis."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:41
+msgid "Creating a logo."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:42
+msgid "Establishing a project's Code of Conduct."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:43
+msgid "Helping the project with legal considerations."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:44
+msgid "Building a contributor/maintainer/leader recruiting process."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:45
+msgid "And so forth."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:47
+msgid ""
+"Practically any skill you might learn in a job role, from customer "
+"service to product management, can underly a contribution. Any need you "
+"can imagine another community having, might be a need of an open source "
+"community and can form the basis of a contribution."
+msgstr ""
+
+#: ../../growing-contributors/what-is-a-contribution.md:49
+msgid ""
+"It is useful to be mindful of the breadth and depth of types of "
+"contributions. As part of the practice of community management, you will "
+"have to be aware of the many ways people contribute to a project. Then "
+"you can thank them for their contribution, connecting their action from "
+"the individual back to the whole and the greater effort."
+msgstr ""
