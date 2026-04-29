@@ -20,14 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../index.md:3
-msgid "Guidebook"
-msgstr "指南"
-
-#: ../../index.md:34
-msgid "Project information"
-msgstr "项目信息"
-
-#: ../../index.md:1
-msgid "The Open Source Way"
-msgstr "开源之道"
+#: ../../growing-contributors/index.md:1
+msgid "Growing Contributors"
+msgstr "贡献者不断增加"

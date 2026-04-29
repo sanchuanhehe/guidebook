@@ -27,7 +27,9 @@ The helper below imports existing `l10n/cn` text into `zh_CN` catalogs only when
 uv run python tools/i18n/migrate_cn_markdown.py
 ```
 
-The first safe import migrated 21 files and 1400 messages. It skipped 9 files because either the matching Chinese source did not exist, or the extracted message counts differed:
+The first safe import migrated 21 files and 1400 messages. A follow-up alignment and manual translation pass filled the remaining `zh_CN` catalog entries, bringing the catalog status to `2248` translated messages, `0` untranslated messages, and `0` fuzzy messages.
+
+The files below needed extra review because either the matching Chinese source did not exist, or the extracted message counts differed:
 
 | Catalog | Reason |
 | --- | --- |
@@ -41,7 +43,7 @@ The first safe import migrated 21 files and 1400 messages. It skipped 9 files be
 | `measuring-success/announcing-software-releases.po` | `70 != 69` messages |
 | `measuring-success/understanding-community-metrics.po` | `114 != 115` messages |
 
-Those files should be reviewed manually instead of automatically paired by position.
+Those files were not accepted by the strict one-to-one import path. Future updates to them should still be reviewed carefully when source and translated message counts diverge.
 
 ## Hosted platform evaluation
 

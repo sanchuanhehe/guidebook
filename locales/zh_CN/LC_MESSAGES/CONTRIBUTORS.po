@@ -22,52 +22,57 @@ msgstr ""
 
 #: ../../CONTRIBUTORS.md:1
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #: ../../CONTRIBUTORS.md:3
 msgid "Chapter authors"
-msgstr ""
+msgstr "引言: 呈现 开源之道"
 
 #: ../../CONTRIBUTORS.md:5
 msgid "Introduction: Presenting The Open Source Way"
-msgstr ""
+msgstr "社区入门指南"
 
 #: ../../CONTRIBUTORS.md:6 ../../CONTRIBUTORS.md:30 ../../CONTRIBUTORS.md:44
 msgid "Author(s): [Karsten Wade](mailto:kwade@redhat.com)"
 msgstr ""
+"作者：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Dave "
+"Neary](mailto:dneary@redhat.com), [Karsten Wade](mailto:kwade@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:7
 msgid "Community 101"
-msgstr ""
+msgstr "作者：[Andy Oram](mailto:andyo@praxagora.com)"
 
 #: ../../CONTRIBUTORS.md:8
 msgid ""
-"Author(s): [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), "
-"[Dave Neary](mailto:dneary@redhat.com), [Karsten "
-"Wade](mailto:kwade@redhat.com)"
-msgstr ""
+"Author(s): [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Dave "
+"Neary](mailto:dneary@redhat.com), [Karsten Wade](mailto:kwade@redhat.com)"
+msgstr "构建战略"
 
 #: ../../CONTRIBUTORS.md:9
 msgid "Essentials of Building a Community"
-msgstr ""
+msgstr "新项目清单"
 
 #: ../../CONTRIBUTORS.md:10
 msgid "Author(s): [Andy Oram](mailto:andyo@praxagora.com)"
 msgstr ""
+"作者：[Lisa Caywood](mailto:lcaywood@redhat.com), [Josh "
+"Berkus](mailto:jberkus@redhat.com), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Karsten "
+"Wade](mailto:kwade@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:11
 msgid "Building a Strategy"
-msgstr ""
+msgstr "开源软件项目中的沟通规范"
 
 #: ../../CONTRIBUTORS.md:12
 msgid ""
 "Author(s): [Dave Neary](mailto:dneary@redhat.com) (lead), [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
-msgstr ""
+msgstr "作者：[Leslie Hawthorn](mailto:lhawthor@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:13
 msgid "New Project Checklist"
-msgstr ""
+msgstr "编辑/审阅：[Paula Dickerson](mailto:pdickers@redhat.com) (主编), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:14
 msgid ""
@@ -75,33 +80,35 @@ msgid ""
 "Berkus](mailto:jberkus@redhat.com), [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Karsten "
 "Wade](mailto:kwade@redhat.com)"
-msgstr ""
+msgstr "作者：[Lauren Maffeo](mailto:laurenmaffeo8@gmail.com)"
 
 #: ../../CONTRIBUTORS.md:15
 msgid "Editor: [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 msgstr ""
+"编辑/审阅：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com) (主编), "
+"[Marina Zhurakhinskaya](mailto:marinaz@redhat.com) (主题专家 (SME) 审阅), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:16
 msgid "Communication Norms in Open Source Software Projects"
-msgstr ""
+msgstr "作者：[Gordon Haff](mailto:ghaff@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:17
 msgid "Author(s): [Leslie Hawthorn](mailto:lhawthor@redhat.com)"
-msgstr ""
+msgstr "编辑/审阅：[Brian Proffitt](mailto:bkp@redhat.com) (主编), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:18
 msgid ""
-"Editor(s)/Reviewer(s): [Paula Dickerson](mailto:pdickers@redhat.com) "
-"(lead), Editorial team"
-msgstr ""
+"Editor(s)/Reviewer(s): [Paula Dickerson](mailto:pdickers@redhat.com) (lead),"
+" Editorial team"
+msgstr "作者：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 
 #: ../../CONTRIBUTORS.md:19
 msgid "Building Diverse Open Source Communities by Making Them Inclusive First"
-msgstr ""
+msgstr "从用户到贡献者"
 
 #: ../../CONTRIBUTORS.md:20
 msgid "Author(s): [Lauren Maffeo](mailto:laurenmaffeo8@gmail.com)"
-msgstr ""
+msgstr "作者：[Dave Neary](mailto:dneary@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:21
 msgid ""
@@ -109,157 +116,170 @@ msgid ""
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com) (lead), [Marina "
 "Zhurakhinskaya](mailto:marinaz@redhat.com) (subject matter expert (SME) "
 "reviewer), Editorial team"
-msgstr ""
+msgstr "构建新用户引导体验"
 
 #: ../../CONTRIBUTORS.md:22
 msgid "Why People Participate in Open Source Communities"
 msgstr ""
+"作者：[Ray Paik](mailto:ray@cube.dev), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 
 #: ../../CONTRIBUTORS.md:23
 msgid "Author(s): [Gordon Haff](mailto:ghaff@redhat.com)"
-msgstr ""
+msgstr "创造指导文化"
 
 #: ../../CONTRIBUTORS.md:24
 msgid ""
 "Editor(s)/Reviewer(s): [Brian Proffitt](mailto:bkp@redhat.com) (lead), "
 "Editorial team"
-msgstr ""
+msgstr "项目和社区治理"
 
 #: ../../CONTRIBUTORS.md:25
 msgid "Incentivizing and Rewarding Participants"
 msgstr ""
+"作者：[Dave Neary](mailto:dneary@redhat.com), [Josh "
+"Berkus](mailto:jberkus@redhat.com), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 
 #: ../../CONTRIBUTORS.md:26
 msgid "Author(s): [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
-msgstr ""
+msgstr "编辑/审阅：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com) (主编), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:27
 msgid "From Users to Contributors"
 msgstr ""
+"作者：[Andy Oram](mailto:andyo@praxagora.com), [Karsten "
+"Wade](mailto:kwade@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:28
 msgid "Author(s): [Dave Neary](mailto:dneary@redhat.com)"
-msgstr ""
+msgstr "社区管理者自我关护"
 
 #: ../../CONTRIBUTORS.md:29
 msgid "What Is a Contribution?"
 msgstr ""
+"编辑/审阅：[Karsten Wade](mailto:kwade@redhat.com) (lead), [Dr. Karen "
+"Hixson](https://www.karenhixsonlpc.com/) (主题专家 (SME) 审阅), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:31
 msgid "Constructing an Onboarding Experience"
-msgstr ""
+msgstr "了解社区指标"
 
 #: ../../CONTRIBUTORS.md:32
 msgid ""
 "Author(s): [Ray Paik](mailto:ray@cube.dev), [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 msgstr ""
+"作者：[Ray Paik](mailto:ray@cube.dev), [Brian Proffitt](mailto:bkp@redhat.com),"
+" [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
 
 #: ../../CONTRIBUTORS.md:33
 msgid "Creating a Culture of Mentorship"
 msgstr ""
+"编辑/审阅：[Brian Proffitt](mailto:bkp@redhat.com) (主编), [Bryan "
+"Behrenshausen](mailto:bryan.behrenshausen@sas.com), 编辑团队"
 
 #: ../../CONTRIBUTORS.md:34
 msgid ""
 "Author(s): [Karsten Wade](mailto:kwade@redhat.com), [Guedis "
 "Cardenas](mailto:guedis@palante.co)"
-msgstr ""
+msgstr "作者：[Brian Proffitt](mailto:bkp@redhat.com)"
 
 #: ../../CONTRIBUTORS.md:35
 msgid "Project and Community Governance"
-msgstr ""
+msgstr "项目团队"
 
 #: ../../CONTRIBUTORS.md:36
 msgid ""
 "Author(s): [Dave Neary](mailto:dneary@redhat.com), [Josh "
 "Berkus](mailto:jberkus@redhat.com), [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
-msgstr ""
+msgstr "编辑团队"
 
 #: ../../CONTRIBUTORS.md:37
 msgid ""
 "Editor(s)/Reviewer(s): [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com) (lead), Editorial team"
-msgstr ""
+msgstr "Brian Proffitt (主编)"
 
 #: ../../CONTRIBUTORS.md:38
 msgid "Understanding Community Roles"
-msgstr ""
+msgstr "Shaun McCance (主笔)"
 
 #: ../../CONTRIBUTORS.md:39
 msgid ""
 "Author(s): [Andy Oram](mailto:andyo@praxagora.com), [Karsten "
 "Wade](mailto:kwade@redhat.com)"
-msgstr ""
+msgstr "Bryan Behrenshausen"
 
 #: ../../CONTRIBUTORS.md:40
 msgid "Community Manager Self-Care"
-msgstr ""
+msgstr "Paula Dickerson"
 
 #: ../../CONTRIBUTORS.md:41
 msgid "Author(s): [Ashley Nicolson](mailto:ashjayne.nicolson@gmail.com)"
-msgstr ""
+msgstr "Karsten Wade"
 
 #: ../../CONTRIBUTORS.md:42
 msgid ""
-"Editor(s)/Reviewer(s): [Karsten Wade](mailto:kwade@redhat.com) (lead), "
-"[Dr. Karen Hixson](https://www.karenhixsonlpc.com/) (subject matter "
-"expert (SME) reviewer), Editorial team"
-msgstr ""
+"Editor(s)/Reviewer(s): [Karsten Wade](mailto:kwade@redhat.com) (lead), [Dr. "
+"Karen Hixson](https://www.karenhixsonlpc.com/) (subject matter expert (SME) "
+"reviewer), Editorial team"
+msgstr "翻译团队"
 
 #: ../../CONTRIBUTORS.md:43
 msgid "Defining Healthy Communities"
-msgstr ""
+msgstr "sanchuanhehe"
 
 #: ../../CONTRIBUTORS.md:45
 msgid "Understanding Community Metrics"
-msgstr ""
+msgstr "yamaneaugust"
 
 #: ../../CONTRIBUTORS.md:46
 msgid ""
 "Author(s): [Ray Paik](mailto:ray@cube.dev), [Brian "
 "Proffitt](mailto:bkp@redhat.com), [Bryan "
 "Behrenshausen](mailto:bryan.behrenshausen@sas.com)"
-msgstr ""
+msgstr "semioticrobotic"
 
 #: ../../CONTRIBUTORS.md:47
 msgid ""
 "Editor(s)/Reviewer(s): [Brian Proffitt](mailto:bkp@redhat.com) (lead), "
 "[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), Editorial team"
-msgstr ""
+msgstr "翻译注释"
 
 #: ../../CONTRIBUTORS.md:48
 msgid "Announcing Software Releases"
-msgstr ""
+msgstr "release manager: 版本经理，符合行业习惯"
 
 #: ../../CONTRIBUTORS.md:49
 msgid "Author(s): [Brian Proffitt](mailto:bkp@redhat.com)"
-msgstr ""
+msgstr "self-care: 自我关怀、自我关爱、自我保健→自我健康管理"
 
 #: ../../CONTRIBUTORS.md:51
 msgid "Project teams"
-msgstr ""
+msgstr "mentor/mentorship：指导者/指导关系（弱化从属/权威地位、制度化的语义）"
 
 #: ../../CONTRIBUTORS.md:53
 msgid "Editorial team"
-msgstr ""
+msgstr "micro-manager：控制狂（micro-manager是高情商说法的control freak）"
 
 #: ../../CONTRIBUTORS.md:55
 msgid "Brian Proffitt (lead)"
-msgstr ""
+msgstr "burnout：很多人把它翻译成新词“倦怠”，但是语义上带有厌倦怠惰的指涉，偏离原本意涵以及和“过劳死”的联系，直接翻译成“过劳”最为恰当"
 
 #: ../../CONTRIBUTORS.md:56
 msgid "Shaun McCance (lead writer)"
-msgstr ""
+msgstr "Withdrawal：这个词特指社会性退缩，俗称“社恐”"
 
 #: ../../CONTRIBUTORS.md:57
 msgid "Bryan Behrenshausen"
-msgstr ""
+msgstr "Inner Emptiness：直译为“内心空虚”，流行语“空心病”十分贴切"
 
 #: ../../CONTRIBUTORS.md:58
 msgid "Paula Dickerson"
-msgstr ""
+msgstr "Through the looking glass：对应该英文成语最贴切的是“以人为鉴”"
 
 #: ../../CONTRIBUTORS.md:59
 msgid "Karsten Wade"
-msgstr ""
+msgstr "cookie licking：指拍马屁、膜拜，流行语“跪舔”在字面上更贴切"

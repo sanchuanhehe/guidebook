@@ -1,0 +1,9 @@
+<h3>{{ _('Languages') }}</h3>
+{%- set ns = namespace(prefix='') -%}
+{%- for _ in pagename.split('/') -%}
+  {%- set ns.prefix = ns.prefix ~ '../' -%}
+{%- endfor -%}
+<ul>
+  <li><a href="{{ ns.prefix }}en/{{ pagename }}.html">English</a></li>
+  <li><a href="{{ ns.prefix }}zh_CN/{{ pagename }}.html">简体中文</a></li>
+</ul>

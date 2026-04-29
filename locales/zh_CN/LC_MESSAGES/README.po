@@ -22,35 +22,35 @@ msgstr ""
 
 #: ../../README.md:1
 msgid "The Open Source Way"
-msgstr ""
+msgstr "开源之道"
 
 #: ../../README.md:3
 msgid ""
 "[The Open Source Way](https://www.theopensourceway.org/) is a (somewhat "
 "opinionated) guidebook for anyone interested in managing open source "
 "communities."
-msgstr ""
+msgstr "[开源之道](https://www.theopensourceway.org/) 是一本带有一定观点立场的指南，面向所有对开源社区管理感兴趣的人。"
 
 #: ../../README.md:5
 msgid ""
 "It collects best practices for initiating, nurturing, growing, and "
 "maintaining groups of passionate contributors."
-msgstr ""
+msgstr "它汇集了关于如何发起、培育、发展并维护一群热情贡献者的最佳实践。"
 
 #: ../../README.md:7
 msgid "Translations and localizations"
-msgstr ""
+msgstr "[开源之道](https://www.theopensourceway.org/)是一本（有些主观的）指南，适合任何有兴趣管理开源社区的人。"
 
 #: ../../README.md:8
 msgid "The Open Source Way is available in the following languages:"
-msgstr ""
+msgstr "《开源之道》提供以下语言版本："
 
 #: ../../README.md:9
 msgid "[English](https://github.com/theopensourceway/guidebook) (en_US)"
-msgstr ""
+msgstr "[英语](https://github.com/theopensourceway/guidebook) (en_US)"
 
 #: ../../README.md:10
 msgid ""
-"[Chinese](https://github.com/theopensourceway/guidebook/tree/main/l10n/cn)"
-" (CN)"
-msgstr ""
+"[Chinese](https://github.com/theopensourceway/guidebook/tree/main/l10n/cn) "
+"(CN)"
+msgstr "它汇集了关于如何发起、培育、发展并维系充满热情的贡献者群体的最佳实践。"
