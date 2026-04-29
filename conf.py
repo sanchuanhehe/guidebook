@@ -24,6 +24,10 @@ gettext_compact = False
 myst_heading_anchors = 3
 
 language = "en"
+guidebook_languages = [
+    {"code": "en", "build_dir": "en", "label": "English", "aliases": []},
+    {"code": "zh_CN", "build_dir": "zh_CN", "label": "简体中文", "aliases": ["zh"]},
+]
 html_theme = "sphinx_book_theme"
 html_title = project
 html_theme_options = {
@@ -57,7 +61,8 @@ def setup(app):
             config.html_theme_options["toc_title"] = "本页内容"
 
     def add_language_context(app, pagename, templatename, context, doctree):
-        context["guidebook_language"] = app.config.language
+        context["guidebook_current_language"] = app.config.language
+        context["guidebook_languages"] = guidebook_languages
 
     app.connect("config-inited", localize_theme_options)
     app.connect("html-page-context", add_language_context)
